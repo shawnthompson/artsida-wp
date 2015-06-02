@@ -10,7 +10,6 @@
 			<div class="col-sm-7 purple"><h1><?php the_title(); ?></h1></div>
 		</div>
 		<div class="col-sm-12 text">
-<!-- <img src="../img/<?php echo $mainImage; ?>" class="img-responsive" alt=""> -->
 			<div class="col-sm-4 hidden-xs">
 			<?php
 				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.

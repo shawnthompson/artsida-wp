@@ -36,7 +36,7 @@
 					Presented by:<br /><a href="http://www.td.com/"><img class="img-responsive mrgn-tp-sm" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/sponsor-td.gif" alt="TD"></a>
 				</li>
 				<li class="col-xs-4 col-xs-push-2">
-					Framing Sponsor: <by /><a href="http://www.encadrex.com/"><img class="img-responsive mrgn-tp-sm" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
+					Framing Sponsor: <br /><a href="http://www.encadrex.com/"><img class="img-responsive mrgn-tp-sm" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
 				</li>
 			</ul>
 		</section>
