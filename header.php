@@ -76,7 +76,7 @@
 				<section class="col-xs-2">
 					<h2 class="sr-only"><?php _e('[:en]Language selection[:][:fr]Sélection de langue[:]'); ?></h2>
 					<ul class="list-unstyled">
-						<li class="text-right"><a lang="<?php _e('[:en]fr[:][:fr]en[:]'); ?>" href="<?php _e('[:en]' . qtranxf_convertURL($url, "fr") . '[:][:fr]' . qtranxf_convertURL($url, "en") . '[:]'); ?>" class="lang"><?php _e('[:en]Fr<span class="sr-only">ançais</span>[:][:fr]En<span class="sr-only">glais</span>[:]'); ?></a></li>
+						<li class="text-right"><a lang="<?php _e('[:en]fr[:][:fr]en[:]'); ?>" href="<?php _e('[:en]' . qtranxf_convertURL($url, 'fr') . '[:][:fr]' . qtranxf_convertURL($url, 'en') . '[:]'); ?>" class="lang"><?php _e('[:en]Fr<span class="sr-only">ançais</span>[:][:fr]En<span class="sr-only">glais</span>[:]'); ?></a></li>
 					</ul>
 				</section>
 			</div>
@@ -94,7 +94,7 @@
 							<ul>
 								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="artsida.php">Artsida 6 Auction</a></li>
+										<li><a href="?page_id=7">Artsida 6 Auction</a></li>
 										<li><a href="vernissage.php">Artsida 6 Vernissage</a></li>
 										<li><a href="honorary.php">Honorary Co-Chairs</a></li>
 										<li><a href="venues.php">Event Venues</a></li>
@@ -119,7 +119,7 @@
 							<ul>
 								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">À propos <span class="caret"></span></a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="encan.php">Encan Artsida 6</a></li>
+										<li><a href="?page_id=7&lang=fr">Encan Artsida 6</a></li>
 										<li><a href="vente.php">Vernissage et vente d’œuvres Artsida 6</a></li>
 										<li><a href="copresidents.php">Coprésidents honoraires</a></li>
 										<li><a href="lieux.php">Lieux des activités</a></li>
