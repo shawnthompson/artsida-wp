@@ -568,4 +568,10 @@ footer .fa-4x {
 	}
 
 }
+/* Extra large devices (large desktops, 1500px and up) */
+@media screen and (min-width: 1500px) {
+	header .col-xs-push-2 img {
+		padding: 5px 100px;
+	}
 
+}
