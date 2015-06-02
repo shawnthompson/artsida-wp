@@ -61,7 +61,7 @@
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
 					<p class="text-center date"><?php _e('[:en]Wednesday September 30<sup>th</sup> 2015[:][:fr]Mercredi le 30 septembre 2015[:]'); ?></p>
 					<div class="col-xs-8 col-xs-push-2 mrgn-tp-sm">
-						<p><a target="_blank" href="http://accmontreal.org/<?php _e('[:fr]fr[:]'); ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/accm-<?php _e('[:en]en[:][:fr]fr[:]'); ?>.jpg" alt="<?php _e('[:en]ACCM: AIDS Community Care Montreal[:][:fr]ACCM: Sida Bénévoles Montréal[:]'); ?>" class="img-responsive" /></a></p>
+						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/accm-<?php _e('[:en]en[:][:fr]fr[:]'); ?>.jpg" alt="<?php _e('[:en]ACCM: AIDS Community Care Montreal[:][:fr]ACCM: Sida Bénévoles Montréal[:]'); ?>" class="img-responsive" /></a></p>
 					</div>
 				</div>
 				<div class="col-xs-2">
@@ -89,57 +89,19 @@
 			<div class="row">
 				<div class="col-sm-8 cell">
 					<div class="row">
-						<?php _e('[:en]
-						<nav>
-							<ul>
-								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="?page_id=7">Artsida 6 Auction</a></li>
-										<li><a href="vernissage.php">Artsida 6 Vernissage</a></li>
-										<li><a href="honorary.php">Honorary Co-Chairs</a></li>
-										<li><a href="venues.php">Event Venues</a></li>
-										<li><a href="team.php">Artsida 6 Team</a></li>
-										<li><a href="history.php">Artisda History</a></li>
-										<li><a href="accm.php">ACCM</a></li>
-									</ul>
-								</li>
-								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Artwork <span class="caret"></span></a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="catalog.php">Catalog</a></li>
-										<li><a href="rules.php">Auction Rules</a></li>
-										<li><a href="submissions.php">Submissions</a></li>
-									</ul>
-								</li>
-								<li><a href="tickets.php">Tickets</a></li>
-								<li><a href="sponsors.php">Sponsors</a></li>
-							</ul>
-						</nav>
-						[:][:fr]
-						<nav>
-							<ul>
-								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">À propos <span class="caret"></span></a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="?page_id=7&lang=fr">Encan Artsida 6</a></li>
-										<li><a href="vente.php">Vernissage et vente d’œuvres Artsida 6</a></li>
-										<li><a href="copresidents.php">Coprésidents honoraires</a></li>
-										<li><a href="lieux.php">Lieux des activités</a></li>
-										<li><a href="equipe.php">Équipe d’Artsida 6</a></li>
-										<li><a href="historique.php">Historique d’Artsida</a></li>
-										<li><a href="sbm.php">ACCM – SIDA Bénévoles Montréal</a></li>
-									</ul>
-								</li>
-								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Œuvres <span class="caret"></span></a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="catalogue.php">Catalogue</a></li>
-										<li><a href="regles.php">Règles de l’encan</a></li>
-										<li><a href="soumissions.php">Soumissions</a></li>
-									</ul>
-								</li>
-								<li><a href="billets.php">Billets</a></li>
-								<li><a href="commanditaires.php">Commanditaires</a></li>
-							</ul>
-						</nav>
-						 [:]'); ?>
+					 <?php
+				            wp_nav_menu(
+				            	array(
+					                'menu'              => 'Main menu',
+					                'theme_location'    => 'Main menu',
+					                'depth'             => 2,
+					                'container'         => 'nav',
+					                'menu_class'        => false,
+					                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+					                'walker'            => new wp_bootstrap_navwalker()
+				                )
+				            );
+				        ?>
 					</div>
 				</div>
 				<div class="col-sm-3 red hidden-xs cell"></div>
