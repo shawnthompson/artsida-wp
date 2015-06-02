@@ -14,13 +14,13 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel1.png" alt="" />
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel1-new.png" alt="" />
 				</div>
 				<div class="item">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel2.png" alt="" />
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel2-new.png" alt="" />
 				</div>
 				<div class="item">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel3.png" alt="" />
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel3-new.png" alt="" />
 				</div>
 			</div>
 
