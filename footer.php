@@ -1,3 +1,5 @@
+			</div>
+		</div>
 	<div class="clearfix"></div>
 	</main>
 	<footer class="col-xs-12">
