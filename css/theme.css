@@ -404,7 +404,7 @@ footer .fa-4x {
 	}
 
 	/* French cell in nav */
-	html[lang="fr-FR"] header .cell {
+	html[lang="fr"] header .cell {
 		min-height: 3.05em;
 	}
 
@@ -437,7 +437,7 @@ footer .fa-4x {
 	}
 
 	/* French nav */
-	html[lang="fr-FR"] header nav li a {
+	html[lang="fr"] header nav li a {
 		font-size: 120%;
 	}
 
@@ -534,11 +534,11 @@ footer .fa-4x {
 		font-size: 115%;
 	}
 
-	header nav li a, html[lang="fr-FR"] header nav li a {
+	header nav li a, html[lang="fr"] header nav li a {
 		font-size: 180%
 	}
 
-	header .cell, html[lang="fr-FR"] header .cell {
+	header .cell, html[lang="fr"] header .cell {
 		min-height: 3.9em;
 	}
 
@@ -554,11 +554,11 @@ footer .fa-4x {
 		padding-bottom: 20px;
 	}
 
-	header nav li a, html[lang="fr-FR"] header nav li a {
+	header nav li a, html[lang="fr"] header nav li a {
 		font-size: 200%;
 	}
 
-	header .cell, html[lang="fr-FR"] header .cell {
+	header .cell, html[lang="fr"] header .cell {
 		min-height: 4.15em;
 	}
 
