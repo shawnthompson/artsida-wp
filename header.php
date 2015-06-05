@@ -33,15 +33,19 @@
 				 echo ' - page '. $paged; }
 		   ?>
 	</title>
-	<link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/favicon.ico"  type="image/x-icon">
+	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico"  type="image/x-icon">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!--[if gte IE 9 | !IE ]><!-->
-		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/theme.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.min.css">
+	<?php if (is_page_template('page-artist.php')) {?>
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/artwork.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<?php } ?>
 	<!--<![endif]-->
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/theme.ie.css" />
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.ie.css" />
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
@@ -54,19 +58,19 @@
 		<div class="col-sm-8">
 			<div class="row">
 				<div class="col-xs-2 mrgn-tp-md">
-					<p class="mrgn-tp-lg"><a href="<?php echo get_option('home'); ?>/"><img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.gif" alt="Artsida logo" /></a></p>
+					<p class="mrgn-tp-lg"><a href="<?php echo get_option('home'); ?>/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/logo.gif" alt="Artsida logo" /></a></p>
 				</div>
 				<div class="col-xs-8">
-					<h1 class="mrgn-tp-md"><a href="index.php"><span class="sr-only">Artsida 6</span><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/artsida6.jpg" class="center-block img-responsive" alt="" /></a></h1>
+					<h1 class="mrgn-tp-md"><a href="index.php"><span class="sr-only">Artsida 6</span><img src="<?php bloginfo('template_url'); ?>/img/artsida6.jpg" class="center-block img-responsive" alt="" /></a></h1>
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
 					<p class="text-center date"><?php _e('[:en]Wednesday September 30<sup>th</sup> 2015[:][:fr]Mercredi le 30 septembre 2015[:]'); ?></p>
 					<div class="col-xs-8 col-xs-push-2 mrgn-tp-sm">
-						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/accm-<?php _e('[:en]en[:][:fr]fr[:]'); ?>.jpg" alt="<?php _e('[:en]ACCM: AIDS Community Care Montreal[:][:fr]ACCM: Sida Bénévoles Montréal[:]'); ?>" class="img-responsive" /></a></p>
+						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm-<?php _e('[:en]en[:][:fr]fr[:]'); ?>.jpg" alt="<?php _e('[:en]ACCM: AIDS Community Care Montreal[:][:fr]ACCM: Sida Bénévoles Montréal[:]'); ?>" class="img-responsive" /></a></p>
 					</div>
 				</div>
 				<div class="col-xs-2">
 					<p><span class="small"><?php _e('[:en]Presented&nbsp;by:[:][:fr]Présenté&nbsp;par:[:]'); ?></span><br />
-					<p><a target="_blank" href="http://www.td.com/"><img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/sponsor-td.gif" alt="TD logo" /></a></p>
+					<p><a target="_blank" href="http://www.td.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD logo" /></a></p>
 				</div>
 			</div>
 		</div>
@@ -80,7 +84,7 @@
 					</ul>
 				</section>
 			</div>
-				<p><a target="_blank" href="http://entrepotsdominion.ca/"><span class="sr-only">Entrepôts Dominion</span><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/venue-dominion.png" alt=""></a></p>
+				<p><a target="_blank" href="http://entrepotsdominion.ca/"><span class="sr-only">Entrepôts Dominion</span><img src="<?php bloginfo('template_url'); ?>/img/venue-dominion.png" alt=""></a></p>
 				<p>3968 St-Ambroise<br />
 				<?php _e('[:en]5:00pm - 10:30pm[:][:fr]17h00 - 22h30[:]'); ?></p>
 				<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 6</strong></span></p>
@@ -111,18 +115,3 @@
 	</header>
 	<div class="clearfix"></div>
 	<main class="relative">
-		<div class="cell">
-			<div class="col-sm-2 hidden-xs pink"></div>
-			<div class="col-sm-3 hidden-xs cyan"></div>
-			<div class="col-sm-7 purple"><h1><?php the_title(); ?></h1></div>
-		</div>
-		<div class="col-sm-12 text">
-			<div class="col-sm-4 hidden-xs">
-			<?php
-				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-				    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
-					the_post_thumbnail('full', array('class' => 'img-responsive' ));
-				}
-			?>
-			</div>
-			<div class="col-sm-6">

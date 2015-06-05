@@ -1,5 +1,3 @@
-			</div>
-		</div>
 	<div class="clearfix"></div>
 	</main>
 	<footer class="col-xs-12">
@@ -45,17 +43,28 @@
 			<h2 class="sr-only"><?php _e('[:en]Sponsors[:][:fr]Commanditaires[:]'); ?></h2>
 			<ul class="list-inline">
 				<li class="col-xs-4">
-					<?php _e('[:en]Presented by[:][:fr]Présenté par[:]'); ?>: <br /><a target="_blank" href="http://www.td.com/"><img class="img-responsive mrgn-tp-sm" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/sponsor-td.gif" alt="TD"></a>
+					<?php _e('[:en]Presented by[:][:fr]Présenté par[:]'); ?>: <br /><a target="_blank" href="http://www.td.com/"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD"></a>
 				</li>
 				<li class="col-xs-4 col-xs-push-2">
-					<?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>: <br /><a target="_blank" href="http://www.encadrex.com/"><img class="img-responsive mrgn-tp-sm" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
+					<?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>: <br /><a target="_blank" href="http://www.encadrex.com/"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
 				</li>
 			</ul>
 		</section>
 	</footer>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/twitter.js"></script>
+<?php if (is_home()) {?>
+	<script src="<?php bloginfo('template_url'); ?>/js/twitter.js"></script>
+<?php }?>
+<?php if (is_page_template('page-artist.php')) {?>
+	<script src="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+<?php } ?>
+
 	<?php wp_footer(); ?>
 </body>
 </html>
