@@ -150,7 +150,8 @@ header nav ul li:nth-child(4) {
 main h1 {
 	padding: 20px 5px;
 	margin: 0;
-	font-size: 250%
+	font-size: 250%;
+	color: #fff;
 }
 
 main h2 {
