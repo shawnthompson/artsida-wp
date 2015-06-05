@@ -1,6 +1,6 @@
 <?php
 	/*
-		Template Name: Artist Page
+		Template Name: Art Page
 	*/
 ?>
 <?php get_header(); the_post(); ?>
@@ -19,17 +19,14 @@
 				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 				    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
 					$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );
-					echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '" class="fancybox">
-				';
-	the_post_thumbnail('thumbnail', array('class' => 'img-responsive' ));
-	echo '
-			</a>';
+					echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '" class="fancybox">';
+				the_post_thumbnail('thumbnail', array('class' => 'img-responsive' ));
+				echo '
+				</a>';
 				}
 			?>
-
 			</div>
 			<div class="col-sm-6">
-
 	<?php the_content(); ?>
 				<h2>About the Artist:</h2>
 				<p><?php echo get_post_meta($post -> ID, 'artist_bio', true );?></p>

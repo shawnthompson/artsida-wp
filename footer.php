@@ -56,7 +56,7 @@
 <?php if (is_home()) {?>
 	<script src="<?php bloginfo('template_url'); ?>/js/twitter.js"></script>
 <?php }?>
-<?php if (is_page_template('page-artist.php')) {?>
+<?php if (is_page_template('page-art.php')) {?>
 	<script src="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
