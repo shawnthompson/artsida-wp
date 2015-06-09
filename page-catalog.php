@@ -37,7 +37,7 @@
 						</a>';
 			?>
 							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-							<p>by: <?php echo get_post_meta($post -> ID, 'artist_firstname', true );?> <?php echo get_post_meta($post -> ID, 'artist_lastname', true );?></p>
+							<p>by: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
 						</li>
 		  			</ul>
 			        </div>

@@ -4,7 +4,7 @@
 			<div class="col-sm-3 hidden-xs cyan"></div>
 			<div class="col-sm-7 purple">
 				<h1><?php the_title(); ?></h1>
-				<p>by <?php echo get_post_meta($post -> ID, 'artist_firstname', true );?> <?php echo get_post_meta($post -> ID, 'artist_lastname', true );?></p>
+				<p>by <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
 			</div>
 			<div class="clearfix"></div>
 		</header>
@@ -23,8 +23,8 @@
 			</div>
 			<div class="col-sm-6">
 				<?php the_content(); ?>
-				<h2>About the Artist:</h2>
-				<p><?php echo get_post_meta($post -> ID, 'artist_bio_en', true );?></p>
+				<h2><?php _e('[:en]About the Artist[:][:fr]A propos de l\'Artiste[:]'); ?>:</h2>
+				<p><?php echo get_post_meta($post -> ID, 'biography', true );?></p>
 			</div>
 		</div>
 <?php get_footer(); ?>
