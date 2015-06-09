@@ -13,7 +13,7 @@
 			<div class="clearfix"></div>
 		</header>
 		<div class="col-sm-12 text">
-			<div class="col-sm-4 mrgn-bttm-lg">
+			<div class="hidden-xs col-sm-4 mrgn-bttm-lg">
 			<?php
 				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 				    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
@@ -24,9 +24,7 @@
 			<div class="col-sm-8">
 			<?php
 				query_posts( 'cat=art' ); while (have_posts()) { the_post(); ?>
-		  			<div class="col-md-3">
-		  			<ul class="list-inline">
-		                <li>
+		  			<section class="col-sm-6 col-md-3 artwork">
 			<?php
 	    	 		if ( has_post_thumbnail() ) {
 				    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
@@ -38,9 +36,7 @@
 			?>
 							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 							<p>by: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
-						</li>
-		  			</ul>
-			        </div>
+			        </section>
 	                <?php
 		            }
 	            }
