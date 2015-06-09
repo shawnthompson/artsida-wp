@@ -14,9 +14,7 @@
 			?>
 			</div>
 			<div class="col-sm-6">
-
-	<?php the_content(); ?>
-
+			<?php the_content(); ?>
 			</div>
 		</div>
 <?php get_footer(); ?>

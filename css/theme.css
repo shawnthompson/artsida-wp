@@ -197,6 +197,22 @@ main  .btn-primary {
 	background-color: #6e86b6;
 }
 
+/* Single Post */
+
+.single main header {
+	font-size: 100%;
+}
+
+.single main header h1 {
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+.single main header p {
+	margin-bottom: 0;
+	font-size: 200%;
+}
+
 /* Ticket page */
 
 .tickets main h3 span {
@@ -412,7 +428,8 @@ footer .fa-4x {
 	header .menu {
 		background-color: #cc2038;
 	}
-/* Navigation */
+
+	/* Navigation */
 	header nav {
 		display: table;
 		width: 100%;
@@ -496,6 +513,12 @@ footer .fa-4x {
 		 font-size: 3.3em;
 	}
 
+	/* Single page */
+	.single main h1 {
+		font-size: 240%;
+		padding-top: 15px;
+	}
+
 	.bottom-left,
 	.top-right,
 	.bottom-right,
@@ -566,6 +589,11 @@ footer .fa-4x {
 	main h1 {
 		font-size: 250%;
 		padding-top: 1.4em;
+	}
+
+	/* Single Post */
+	.single main h1 {
+		font-size: 250%;
 	}
 
 }

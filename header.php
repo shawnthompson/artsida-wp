@@ -38,8 +38,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!--[if gte IE 9 | !IE ]><!-->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.min.css">
-	<?php if (is_page_template('page-art.php')) {?>
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/artwork.min.css">
+	<?php if (is_page_template('page-catalog.php') | is_single()) {?>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<?php } ?>
 	<!--<![endif]-->
@@ -80,7 +79,12 @@
 				<section class="col-xs-2">
 					<h2 class="sr-only"><?php _e('[:en]Language selection[:][:fr]Sélection de langue[:]'); ?></h2>
 					<ul class="list-unstyled">
-						<li class="text-right"><a lang="<?php _e('[:en]fr[:][:fr]en[:]'); ?>" href="<?php _e('[:en]' . qtranxf_convertURL($url, 'fr') . '[:][:fr]' . qtranxf_convertURL($url, 'en') . '[:]'); ?>" class="lang"><?php _e('[:en]Fr<span class="sr-only">ançais</span>[:][:fr]En<span class="sr-only">glais</span>[:]'); ?></a></li>
+					<?php
+						if (!is_home()) {
+							$postid = 'p=' . get_the_ID() . '&amp;' ;
+						}
+					?>
+						<li class="text-right"><a lang="<?php _e('[:en]fr[:][:fr]en[:]'); ?>" href="?<?php echo $postid; ?>&amp;lang=<?php _e('[:en]fr[:][:fr]en[:]'); ?>" class="lang"><?php _e('[:en]Fr<span class="sr-only">ançais</span>[:][:fr]En<span class="sr-only">glais</span>[:]'); ?></a></li>
 					</ul>
 				</section>
 			</div>

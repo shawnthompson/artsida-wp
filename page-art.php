@@ -27,10 +27,9 @@
 			?>
 			</div>
 			<div class="col-sm-6">
-	<?php the_content(); ?>
+				<?php the_content(); ?>
 				<h2>About the Artist:</h2>
 				<p><?php echo get_post_meta($post -> ID, 'artist_bio', true );?></p>
-
 			</div>
 		</div>
 <?php get_footer(); ?>

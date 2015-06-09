@@ -1,0 +1,15 @@
+ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+	text-align: left;
+}
+/* Media Queries*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+}
