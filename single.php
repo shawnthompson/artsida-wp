@@ -27,5 +27,5 @@
 				<p><?php echo get_post_meta($post -> ID, 'biography', true );?></p>
 			</div>
 		</div>
-<?php get_footer(); ?>
+<?php wp_reset_query(); get_footer(); ?>
 
