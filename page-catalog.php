@@ -23,8 +23,8 @@
 			</div>
 			<div class="col-sm-8">
 			<?php
-				query_posts( 'cat=art' ); while (have_posts()) { the_post(); ?>
-		  			<section class="col-sm-6 col-md-3 artwork">
+				query_posts( 'cat=3' ); while (have_posts()) { the_post(); ?>
+		  			<section class="col-sm-6 col-md-4 artwork">
 			<?php
 	    	 		if ( has_post_thumbnail() ) {
 				    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
