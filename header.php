@@ -44,6 +44,9 @@
 	<?php if (is_page_template('page-catalog.php')) {?>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/catalog.min.css">
 	<?php } ?>
+	<?php if (is_page_template('page-sponsor.php')) {?>
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/sponsor.min.css">
+	<?php } ?>
 	<!--<![endif]-->
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<!--[if lt IE 9]>
