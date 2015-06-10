@@ -19,25 +19,10 @@
 					</li>
 				</ul>
 			</section>
-			<?php _e('[:en]
 			<section class="col-xs-6 text-right media">
-				<h2 class="sr-only">Information links</h2>
-				<ul class="list-unstyled">
-					<li><a href="media.php">Media</a></li>
-					<li><a href="volunteer.php">Volunteer</a></li>
-					<li><a href="contact.php">Contact</a></li>
-				</ul>
+				<h2 class="sr-only"><?php _e('[:en]Information links[:][:fr]Liens d\'informations[:]'); ?></h2>
+				<?php wp_nav_menu( array('footer_menu' => 'Footer Menu', 'menu_class' => 'list-unstyled') );?>
 			</section>
-			[:][:fr]
-			<section class="col-xs-6 text-right media">
-				<h2 class="sr-only">Liens d\'informations</h2>
-				<ul class="list-unstyled">
-					<li><a href="media-fr.php">Médias</a></li>
-					<li><a href="benevolat.php">Bénévolat</a></li>
-					<li><a href="joindre.php">Nous joindre</a></li>
-				</ul>
-			</section>
-			[:]'); ?>
 		</div>
 		<section class="col-xs-12 col-sm-6 col-sm-pull-6 sponsors">
 			<h2 class="sr-only"><?php _e('[:en]Sponsors[:][:fr]Commanditaires[:]'); ?></h2>

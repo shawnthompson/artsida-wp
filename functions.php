@@ -41,7 +41,8 @@
     if (function_exists('register_nav_menus')) {
         register_nav_menus(
             array(
-                'main_nav' => 'Main navigation menu'
+                'main_nav' => 'Main navigation menu',
+                'footer_nav' => 'Footer Menu'
                 )
         );
     }
