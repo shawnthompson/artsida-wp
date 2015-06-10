@@ -26,7 +26,7 @@
 			  elseif (is_404()) {
 				 echo 'Not Found - '; }
 			  if (is_home()) {
-				 bloginfo('name'); echo ' - '; bloginfo('description'); }
+				 bloginfo('name');}
 			  else {
 				  bloginfo('name'); }
 			  if ($paged>1) {
