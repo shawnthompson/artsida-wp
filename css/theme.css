@@ -136,12 +136,15 @@ header nav .dropdown-menu li a {
 header nav ul li, header nav ul ul.dropdown-menu li {
 	background-color: #6e86b6;
 }
+
 header nav ul li:nth-child(2), header nav ul li:nth-child(2) ul.dropdown-menu li {
 	background-color: #e1d73a;
 }
+
 header nav ul li:nth-child(3) {
 	background-color: #e5b3d0;
 }
+
 header nav ul li:nth-child(4) {
 	background-color: #4eb0af;
 }
@@ -164,6 +167,14 @@ main h3 {
 	margin-top: 30px;
 	font-weight: bold;
 	font-size: 130%;
+}
+
+main .tag {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	color: #fff;
 }
 
 main .text {
@@ -244,6 +255,14 @@ main  .btn-primary {
 /* Footer */
 footer {
 	padding: 15px;
+}
+
+footer .sponsors h3 {
+	font-size: 1em;
+}
+
+footer .sponsors ul li {
+	margin-bottom: 15px;
 }
 
 footer .media {
@@ -495,6 +514,12 @@ footer .fa-4x {
 		max-height: 16em;
 	}
 
+	main .tag {
+		padding-top: 15px;
+		font-size: 1em;
+		width: 40%;
+	}
+
 	main .cell div {
 		min-height: 9em;
 	}
@@ -566,6 +591,11 @@ footer .fa-4x {
 		min-height: 3.9em;
 	}
 
+	main .tag {
+		font-size: 1.5em;
+		width: 50%;
+	}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -596,11 +626,25 @@ footer .fa-4x {
 		font-size: 250%;
 	}
 
+	main .tag {
+		width: 70%;
+	}
+
 }
 /* Extra large devices (large desktops, 1500px and up) */
 @media screen and (min-width: 1500px) {
 	header .col-xs-push-2 img {
 		padding: 5px 100px;
+	}
+
+	main .tag {
+		width: 100%;
+		font-size: 2em;
+	}
+
+	html[lang="fr"] main .tag {
+		width: 100%;
+		font-size: 1.8em;
 	}
 
 }
