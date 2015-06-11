@@ -26,7 +26,7 @@
 			<h2><?php _e('[:en]Partner Sponsors[:][:fr]Commanditaires partenaires[:]'); ?></h2>
 			<ul class="list-unstyled sponsor-list">
 <?php
-				query_posts( 'cat=4' ); while (have_posts()) { the_post(); ?>
+				query_posts( 'cat=4' . '&order=ASC'); while (have_posts()) { the_post(); ?>
 			<?php
 	    	 		if ( has_post_thumbnail() ) {
 				    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
