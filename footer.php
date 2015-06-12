@@ -53,6 +53,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <?php if (is_home()) {?>
 	<script src="<?php bloginfo('template_url'); ?>/js/twitter.js"></script>
+	<script>
+		$('.reload').click(function() {
+		    location.reload();
+		});
+	</script>
 <?php }?>
 <?php if (is_page_template('page-catalog.php') | is_single()) {?>
 	<script src="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
