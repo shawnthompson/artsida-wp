@@ -22,8 +22,11 @@
 			?>
 			</div>
 			<div class="col-sm-8">
-			<?php
-				query_posts( 'cat=3' ); while (have_posts()) { the_post(); ?>
+			<?php 	$counter = 0;
+					query_posts( 'cat=3', 'posts_per_page=2' ); while (have_posts()) { the_post();
+					$counter++;
+					if ($counter == 4){ $counter = 1; }
+					?>
 		  			<section class="col-sm-6 col-md-4 artwork">
 			<?php
 	    	 		if ( has_post_thumbnail() ) {
@@ -35,9 +38,11 @@
 						</a>';
 			?>
 							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-							<p>by: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
+							<p>by: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true ) . " " . $counter;?></p>
 			        </section>
 	                <?php
+	                if ($counter==2) { echo '<div class="visible-sm clearfix"></div>';}
+	                if ($counter==3) { echo '<div class="visible-md visible-lg clearfix"></div>';}
 		            }
 	            }
 	            if (!have_posts()) { ?>
