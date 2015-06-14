@@ -4,7 +4,7 @@
 			<div class="col-sm-3 hidden-xs cyan"></div>
 			<div class="col-sm-7 purple">
 				<h1><?php the_title(); ?></h1>
-				<p>by <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
+				<p><?php _e('[:en]by[:][:fr]par[:]'); ?>: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
 			</div>
 			<div class="clearfix"></div>
 		</header>
