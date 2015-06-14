@@ -23,7 +23,7 @@
 			</div>
 			<div class="col-sm-8">
 			<?php 	$counter = 0;
-					query_posts( 'cat=3', 'posts_per_page=2' ); while (have_posts()) { the_post();
+					query_posts( "cat=3" , "posts_per_page=2"); while (have_posts()) { the_post();
 					$counter++;
 					if ($counter == 4){ $counter = 1; }
 					?>
@@ -33,18 +33,20 @@
 				    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
 					$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );
 					echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '" class="fancybox">';
-						the_post_thumbnail('thumbnail', array('class' => 'img-responsive' ));
+						the_post_thumbnail('full', array('class' => 'img-responsive' ));
 						echo '
 						</a>';
+		            }
 			?>
 							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-							<p>by: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true ) . " " . $counter;?></p>
+							<p>by: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
 			        </section>
 	                <?php
 	                if ($counter==2) { echo '<div class="visible-sm clearfix"></div>';}
 	                if ($counter==3) { echo '<div class="visible-md visible-lg clearfix"></div>';}
-		            }
 	            }
+	            	include (TEMPLATEPATH . '/inc/nav.php' );
+
 	            if (!have_posts()) { ?>
 	            	<p><?php _e('[:en]Once the Artsida 6 collection has been selected, photos of the selected artwork and artist biographies will be available here. A downloadable and printable colour catalog will also be available.[:][:fr]Une fois la sélection pour Artsida 6 effectuée, cette section présentera une photo des œuvres choisies et la biographie des artistes. Un catalogue couleur pourra aussi être téléchargé et imprimé.[:]'); ?></p>
 	            <?php } ?>

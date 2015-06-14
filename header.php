@@ -86,7 +86,7 @@
 							$postid = 'p=' . get_the_ID() . '&amp;' ;
 						}
 					?>
-						<li class="text-right"><a lang="<?php _e('[:en]fr[:][:fr]en[:]'); ?>" href="?<?php echo $postid; ?>&amp;lang=<?php _e('[:en]fr[:][:fr]en[:]'); ?>" class="lang"><?php _e('[:en]Fr<span class="sr-only">ançais</span>[:][:fr]En<span class="sr-only">glais</span>[:]'); ?></a></li>
+						<li class="text-right"><a lang="<?php _e('[:en]fr[:][:fr]en[:]'); ?>" href="?<?php echo $postid; ?>lang=<?php _e('[:en]fr[:][:fr]en[:]'); ?>" class="lang"><?php _e('[:en]Fr<span class="sr-only">ançais</span>[:][:fr]En<span class="sr-only">glais</span>[:]'); ?></a></li>
 					</ul>
 				</section>
 			</div>

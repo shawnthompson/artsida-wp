@@ -243,13 +243,9 @@ main  .btn-primary {
 }
 
 /* Sponsor page */
-.sponsors main h2 {
-	margin-top: 50px;
-	margin-bottom: 15px;
-}
 
-.sponsors main .col-sm-6 h2:nth-child(2) {
-	margin-top: 20px;
+main .sponsor-list li {
+	margin-bottom: 25px;
 }
 
 /* Footer */
