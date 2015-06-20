@@ -1,28 +1,87 @@
 <?php get_header(); ?>
 
 
-
 		<h1 class="sr-only">ArtSida 6, September 30, 2015</h1>
+
+<!--
 		<div id="carousel" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<li data-target="#carousel" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel" data-slide-to="1"></li>
 				<li data-target="#carousel" data-slide-to="2"></li>
 			</ol>
 
-			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel1-new.png" alt="" />
+					<img src="img/carousel1-new.png" alt="" />
 				</div>
 				<div class="item">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel2-new.png" alt="" />
+					<img src="img/carousel2-new.png" alt="" />
 				</div>
 				<div class="item">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel3-new.png" alt="" />
+					<img src="img/carousel3-new.png" alt="" />
 				</div>
 			</div>
+
+			<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+			</a>
+		</div>
+ -->
+
+
+
+		<div id="carousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+
+
+
+<?php
+// The Query
+query_posts( "cat=3" );
+$dataSlide = 0;
+// The Loop
+while ( have_posts() ) : the_post();
+if ( $dataSlide == 0 ) {
+	$activeClass = ' class"active"';
+} else {
+	$activeClass = '';
+}
+
+echo '<li data-target="#carousel" data-slide-to="' . $dataSlide. '"' . $activeClass . '></li>
+';
+
+$dataSlide ++;
+
+endwhile; ?>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+
+<?php
+$dataSlide = 0;
+while ( have_posts() ) : the_post();
+if ($dataSlide == 0) { $activeClass = ' active';} else { $activeClass = ''; }
+$dataSlide ++;
+if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+	    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes ?>
+				<div class="item<?php echo $activeClass;?>">
+				<?php the_post_thumbnail("full"); ?>
+
+				</div>
+<?php
+
+	}
+endwhile;
+echo '</div>';
+// Reset Query
+wp_reset_query();
+?>
 
 			<!-- Controls -->
 			<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
