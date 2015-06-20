@@ -23,7 +23,7 @@
 			</div>
 			<div class="col-sm-8">
 			<?php 	$counter = 0;
-					query_posts( "cat=3"); while (have_posts()) { the_post();
+					query_posts( "cat=3" ); while (have_posts()) { the_post();
 					$counter++;
 					if ($counter == 4){ $counter = 1; }
 					?>
