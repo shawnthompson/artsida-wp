@@ -22,13 +22,21 @@
 			?>
 			</div>
 			<div class="col-sm-8">
-			<?php 	$counter = 0;
-					query_posts( "cat=3" ); while (have_posts()) { the_post();
+			<?php 	
+					$args = array(
+						'cat' => 3,
+						'paged' => $paged,
+						'posts_per_page' => 3
+					);
+					$counter = 0;
+					query_posts( $args ); 
+					if ( have_posts() ) :
+					while ( have_posts() ) : the_post();
 					$counter++;
 					if ($counter == 4){ $counter = 1; }
 					?>
 		  			<section class="col-sm-6 col-md-4 artwork">
-			<?php
+				<?php
 	    	 		if ( has_post_thumbnail() ) {
 				    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
 					$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );
@@ -37,18 +45,18 @@
 						echo '
 						</a>';
 		            }
-			?>
-							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-							<p><?php _e('[:en]by[:][:fr]par[:]'); ?>: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
+				?>
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<p><?php _e('[:en]by[:][:fr]par[:]'); ?>: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
 			        </section>
-	                <?php
+                <?php
 	                if ($counter==2) { echo '<div class="visible-sm clearfix"></div>';}
-	                if ($counter==3) { echo '<div class="visible-md visible-lg clearfix"></div>';}
-	            }
-
-	            if (!have_posts()) { ?>
+	                if ($counter==3) { echo '<div class="visible-md visible-lg clearfix"></div>';} ?>
+ 				<?php endwhile; ?>
+	            <?php else : ?>
 	            	<p><?php _e('[:en]Once the Artsida 6 collection has been selected, photos of the selected artwork and artist biographies will be available here. A downloadable and printable colour catalog will also be available.[:][:fr]Une fois la sélection pour Artsida 6 effectuée, cette section présentera une photo des œuvres choisies et la biographie des artistes. Un catalogue couleur pourra aussi être téléchargé et imprimé.[:]'); ?></p>
-	            <?php } ?>
+				<?php endif; ?>
+			<?php bittersweet_pagination() ?>
 			</div>
 		</div>
 <?php wp_reset_query(); get_footer(); ?>

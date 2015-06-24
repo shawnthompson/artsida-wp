@@ -15,6 +15,19 @@ main .artwork p {
 	padding: 0;
 }
 
+main .pagination .current {
+	background-color: #333;
+	color: #fff;
+}
+
+main .pagination .current a:hover {
+	background-color: #333;
+	color: #fff;
+}
+main .pagination>li>span:focus, main .pagination>li>span:hover {
+	background-color: #333;
+	color: #fff;
+}
 /* Media Queries*/
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
