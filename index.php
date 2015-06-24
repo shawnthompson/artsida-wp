@@ -6,8 +6,14 @@
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 			<?php
+			$args = array(
+				'orderby'        => 'rand',
+				'posts_per_page' => '3',
+				'cat' => '3'
+
+			);
 			// The Query
-			query_posts( "cat=3" );
+			query_posts( $args );
 			$dataSlide = 0;
 			// The Loop
 			while ( have_posts() ) : the_post();
