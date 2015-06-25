@@ -60,8 +60,9 @@
     $pages = paginate_links( array(
             'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
             'format' => '?paged=%#%',
-            // 'show_all' => True,
             'current' => max( 1, get_query_var('paged') ),
+            'prev_text' => __('« '),
+            'next_text' => __(' »'),
             'total' => $wp_query->max_num_pages,
             'type'  => 'array',
         ) );
