@@ -157,6 +157,10 @@ main h1 {
 	color: #fff;
 }
 
+main h1 small {
+	color: #CCC;
+}
+
 main h2 {
 	margin-top: 20px;
 	font-weight: bold;
@@ -206,6 +210,13 @@ main  .btn-primary {
 	font-size: 125%;
 	margin-top: 30px;
 	background-color: #6e86b6;
+}
+
+/* Search */
+
+main .search-everything-highlight-color {
+	font-weight: 900;
+	border-bottom: dotted 1px #333;
 }
 
 /* Single Post */

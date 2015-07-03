@@ -1,24 +1,39 @@
 <?php get_header(); ?>
+		<header class="cell purple">
+			<div class="col-sm-2 hidden-xs pink"></div>
+			<div class="col-sm-3 hidden-xs cyan"></div>
+			<div class="col-sm-7 purple">
+				<h1><small>Search Results for</small> <?php echo wp_specialchars($s); ?></h1>
+			</div>
+			<div class="clearfix"></div>
+		</header>
+		<div class="col-sm-12 text">
 
 	<?php if (have_posts()) : ?>
 
-		<h2>Search Results</h2>
-
-		<?php include (TEMPLATEPATH . '/inc/nav.php' ); ?>
-
 		<?php while (have_posts()) : the_post(); ?>
 
-			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
-				<h2><?php the_title(); ?></h2>
-
-				<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
-
-				<div class="entry">
-					<?php the_excerpt(); ?>
-				</div>
-
-			</div>
+<div class="row mrgn-bttm-lg">
+  <div class="col-sm-4">
+	<?php
+		if ( has_post_thumbnail() ) {
+		add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
+		$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );
+		echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '" class="fancybox">';
+			the_post_thumbnail('thumbnail', array('class' => 'img-responsive' ));
+			echo '
+			</a>';
+		}
+	?>
+  </div>
+  <div class="col-sm-8">
+    <h2 class="media-heading"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <p class="name"><?php _e('[:en]by[:][:fr]par[:]'); ?>: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
+    <?php the_excerpt(); ?>
+  </div>
+</div>
+<div class="clearfix"></div>
 
 		<?php endwhile; ?>
 
@@ -30,6 +45,5 @@
 
 	<?php endif; ?>
 
-<?php get_sidebar(); ?>
-
+		</div>
 <?php get_footer(); ?>
