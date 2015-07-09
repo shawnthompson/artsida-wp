@@ -25,6 +25,12 @@
 				<?php the_content(); ?>
 				<h2><?php _e('[:en]About the Artist[:][:fr]A propos de l\'Artiste[:]'); ?>:</h2>
 				<p><?php echo get_post_meta($post -> ID, 'biography', true );?></p>
+				<nav>
+				  <ul class="pager">
+				    <li class="previous"><?php previous_post_link('%link', 'Previous artwork', TRUE);?></li>
+				    <li class="next"><?php next_post_link('%link', 'Next artwork', TRUE);?></li>
+				  </ul>
+				</nav>
 			</div>
 		</div>
 <?php wp_reset_query(); get_footer(); ?>
