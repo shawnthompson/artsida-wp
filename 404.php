@@ -3,7 +3,7 @@
 			<div class="col-sm-2 hidden-xs pink"></div>
 			<div class="col-sm-3 hidden-xs cyan"></div>
 			<div class="col-sm-7 purple">
-				<h1>Error 404 - Page Not Found</h1>
+				<h1><?php _e('[:en]Error 404 - Page Not Found[:][:fr]Erreur 404 - Page introuvable[:]'); ?></h1>
 			</div>
 			<div class="clearfix"></div>
 		</header>

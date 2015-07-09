@@ -24,7 +24,7 @@
 			  elseif (!(is_404()) && (is_single()) || (is_page())) {
 				 wp_title(''); echo ' - '; }
 			  elseif (is_404()) {
-				 echo 'Not Found - '; }
+				 _e('[:en]Error 404 - Page Not Found - [:][:fr]Erreur 404 - Page introuvable - [:]'); }
 			  if (is_home()) {
 				 bloginfo('name');}
 			  else {
