@@ -114,7 +114,7 @@
 				        ?>
 					</div>
 				</div>
-				<div class="col-sm-3 red hidden-xs cell"></div>
+				<div class="col-sm-3 red cell"><p class="bids"><a href="#">Absentee bids</a></p></div>
 				<div class="col-sm-1 pink hidden-xs cell"></div>
 			</div>
 		</div>
