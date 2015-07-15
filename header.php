@@ -114,7 +114,7 @@
 				        ?>
 					</div>
 				</div>
-				<div class="col-sm-3 red cell"><p class="bids"><a href="<?php bloginfo('template_url'); ?>/img/absenteebidform-<?php _e('[:en]en[:][:fr]fr[:]'); ?>.pdf"><?php _e('[:en]Absentee bids[:][:fr]Mise à distance[:]'); ?></a></p></div>
+				<div class="col-sm-3 red cell"><p class="bids"><a target="_blank" href="<?php bloginfo('template_url'); ?>/img/absenteebidform-<?php _e('[:en]en[:][:fr]fr[:]'); ?>.pdf"><?php _e('[:en]Absentee bids[:][:fr]Mise à distance[:]'); ?></a></p></div>
 				<div class="col-sm-1 pink hidden-xs cell"></div>
 			</div>
 		</div>
