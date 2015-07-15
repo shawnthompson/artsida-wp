@@ -13,7 +13,18 @@
 			<div class="clearfix"></div>
 		</div>
 		<div class="col-sm-12 text">
+		<?php
+			$args = array(
+				'cat' => 3,
+				'paged' => $paged,
+				'posts_per_page' => 10
+			);
+			$counter = 0;
+			query_posts( $args ); 
+		?>
+		<?php if (have_posts()) { ?>
 		<div class="pull-right"><?php get_search_form(); ?></div>
+		<?php } ?>
 			<div class="hidden-xs col-sm-4 mrgn-bttm-lg">
 			<?php
 				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
@@ -24,13 +35,6 @@
 			</div>
 			<div class="col-sm-8">
 			<?php 	
-					$args = array(
-						'cat' => 3,
-						'paged' => $paged,
-						'posts_per_page' => 10
-					);
-					$counter = 0;
-					query_posts( $args ); 
 					if ( have_posts() ) :
 					while ( have_posts() ) : the_post();
 					$counter++;
