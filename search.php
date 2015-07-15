@@ -3,7 +3,7 @@
 			<div class="col-sm-2 hidden-xs pink"></div>
 			<div class="col-sm-3 hidden-xs cyan"></div>
 			<div class="col-sm-7 purple">
-				<h1><small>Search Results for</small> <?php echo wp_specialchars($s); ?></h1>
+				<h1><small><?php _e('[:en]Search results for[:][:fr]Résultats de recherche pour[:]'); ?></small> <?php echo wp_specialchars($s); ?></h1>
 			</div>
 			<div class="clearfix"></div>
 		</header>
@@ -41,7 +41,7 @@
 
 	<?php else : ?>
 
-		<h2>No posts found.</h2>
+		<h2><?php _e('[:en]No posts found[:][:fr]Aucun post trouvé[:]'); ?>.</h2>
 
 	<?php endif; ?>
 
