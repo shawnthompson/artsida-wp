@@ -251,19 +251,23 @@ main .search-everything-highlight-color {
 
 /* Ticket page */
 
-.tickets main h3 span {
+.page-id-14 main h2 {
+	line-height: 0.8;
+}
+
+.page-id-14 main h3 span {
 	margin-left: 15px;
 }
 
-.tickets main p:nth-child(2) {
+.page-id-14 main p:nth-child(2) {
 	margin-left: 15px;
 }
 
-.tickets main h2:nth-child(3) {
+.page-id-14 main h2:nth-child(3) {
 	margin-top: 50px;
 }
 
-.tickets main section {
+.page-id-14 main section {
 	margin-left: 15px;
 }
 
