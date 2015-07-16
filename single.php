@@ -27,8 +27,8 @@
 				<p><?php echo get_post_meta($post -> ID, 'biography', true );?></p>
 				<nav>
 				  <ul class="pager">
-				    <li class="previous"><?php previous_post_link('%link', 'Previous artwork', TRUE);?></li>
-				    <li class="next"><?php next_post_link('%link', 'Next artwork', TRUE);?></li>
+				    <li class="previous"><?php previous_post_link('%link', '<i class="fa fa-arrow-circle-o-left fa-2x"></i>', TRUE);?></li>
+				    <li class="next"><?php next_post_link('%link', '<i class="fa fa-arrow-circle-o-right fa-2x"></i>', TRUE);?></li>
 				  </ul>
 				</nav>
 			</div>
