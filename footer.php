@@ -59,7 +59,7 @@
 		});
 	</script>
 <?php }?>
-<?php if (is_page_template('page-catalog.php') | is_single() | is_search()) {?>
+<?php if (is_page_template('page-catalog.php' || 'page-catalog-draft.php') | is_single() | is_search()) {?>
 	<script src="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
