@@ -59,10 +59,10 @@
 		<div class="col-sm-8">
 			<div class="row">
 				<div class="col-xs-2 mrgn-tp-md">
-					<p class="mrgn-tp-lg"><a href="<?php echo get_option('home'); ?>/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/logo.gif" alt="Artsida logo" /></a></p>
+					<p class="mrgn-tp-lg"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/logo.gif" alt="Artsida logo" /></a></p>
 				</div>
 				<div class="col-xs-8">
-					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/"><span class="sr-only">Artsida 6</span><img src="<?php bloginfo('template_url'); ?>/img/artsida6.jpg" class="center-block img-responsive" alt="" /></a></h1>
+					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><span class="sr-only">Artsida 6</span><img src="<?php bloginfo('template_url'); ?>/img/artsida6.jpg" class="center-block img-responsive" alt="" /></a></h1>
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
 					<p class="text-center date"><?php _e('[:en]Wednesday September 30<sup>th</sup> 2015[:][:fr]Mercredi le 30 septembre 2015[:]'); ?></p>
 					<div class="col-xs-8 col-xs-push-2 mrgn-tp-sm">
