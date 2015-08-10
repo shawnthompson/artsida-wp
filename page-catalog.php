@@ -16,6 +16,9 @@
 		<?php
 			$args = array(
 				'cat' => 3,
+				'orderby'  => 'meta_value',
+				'meta_key' => 'firstname',
+				'order' => 'ASC',
 				'paged' => $paged,
 				'posts_per_page' => 10
 			);
