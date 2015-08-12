@@ -35,7 +35,7 @@
 				  <dd><?php if ( empty( $width || $height) ) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?> 
 				<?php else : echo $width . '" X ' . $height . '"';?>
 				 <?php endif; ?></dd>
-				  <dt><?php _e('[:en]Year published[:][:fr]Année de publication[:]'); ?>:</dt>
+				  <dt><?php _e('[:en]Year produced[:][:fr]Année produit[:]'); ?>:</dt>
 				  <dd><?php if ( empty ($year)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $year;?><?php endif; ?></dd>
 				  <dt><?php _e('[:en]Medium[:][:fr]Médium[:]'); ?>:</dt>
 				  <dd><?php if ( empty ($medium)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $medium;?><?php endif; ?></dd>
