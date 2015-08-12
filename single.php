@@ -23,8 +23,23 @@
 			</div>
 			<div class="col-sm-6">
 				<?php the_content(); ?>
-				<h2><?php _e('[:en]About the Artist[:][:fr]A propos de l\'Artiste[:]'); ?>:</h2>
-				<p><?php echo get_post_meta($post -> ID, 'biography', true );?></p>
+				<?php 
+					$width = get_post_meta($post -> ID, 'width', true );
+					$height = get_post_meta($post -> ID, 'height', true );
+					$year = get_post_meta($post -> ID, 'year', true );
+					$medium = get_post_meta($post -> ID, 'medium', true );
+				?>
+				<h2><?php _e('[:en]Details[:][:fr]Détails[:]'); ?></h2>
+				<dl class="dl-horizontal">
+				  <dt>Dimensions:</dt>
+				  <dd><?php if ( empty( $width || $height) ) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?> 
+				<?php else : echo $width . '" X ' . $height . '"';?>
+				 <?php endif; ?></dd>
+				  <dt><?php _e('[:en]Year published[:][:fr]Année de publication[:]'); ?>:</dt>
+				  <dd><?php if ( empty ($year)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $year;?><?php endif; ?></dd>
+				  <dt><?php _e('[:en]Medium[:][:fr]Médium[:]'); ?>:</dt>
+				  <dd><?php if ( empty ($medium)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $medium;?><?php endif; ?></dd>
+				</dl>
 				<nav>
 				  <ul class="pager">
 				    <li class="previous"><?php previous_post_link('%link', '<i class="fa fa-arrow-circle-o-left fa-2x"></i>', TRUE);?></li>
