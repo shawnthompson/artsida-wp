@@ -1,5 +1,5 @@
 <?php
-	$date = strtotime("September 30, 2015 17:00");
+	$date = strtotime("September 30, 2015 18:00");
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
@@ -90,9 +90,9 @@
 					</ul>
 				</section>
 			</div>
-				<p><a target="_blank" href="http://entrepotsdominion.ca/"><span class="sr-only">Entrepôts Dominion</span><img src="<?php bloginfo('template_url'); ?>/img/venue-dominion.png" alt=""></a></p>
-				<p>3968 St-Ambroise<br />
-				<?php _e('[:en]5:00pm - 10:30pm[:][:fr]17h00 - 22h30[:]'); ?></p>
+				<p class="venue"><a target="_blank" href="http://www.espacereunion.ca/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/">Espace Réunion</a></p>
+				<p>6600 rue Hutchison<br />
+				<?php _e('[:en]6:00pm - 9:30pm[:][:fr]18h00 - 21h30[:]'); ?></p>
 				<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 6</strong></span></p>
 		</div>
 		<div class="col-sm-12 menu">
