@@ -41,6 +41,15 @@
 				  <dt><?php _e('[:en]Medium[:][:fr]Médium[:]'); ?>:</dt>
 				  <dd><?php if ( empty ($medium)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $medium;?><?php endif; ?></dd>
 				</dl>
+				<?php 
+					$selected = get_field('sale');
+					if( in_array('yes:Yes', $selected) ) {?>
+						<h2><?php _e('[:en]Direct sale[:][:fr]Vente Directe[:]'); ?></h2>
+						<p><?php _e('
+							[:en]This piece is for sale exclusively on the night of our September 19<sup>th</sup> vernissage. Make sure to come early so as not to miss out.[:]
+							[:fr]Cette &oelig;uvre sera mise en vente exclusivement lors du vernissage le 19 septembre.  Arrivez tôt afin de ne pas rater votre chance.[:]
+							'); ?></p>
+				<?php } ?>
 				<nav>
 				  <ul class="pager">
 				    <li class="previous"><?php previous_post_link('%link', '<i class="fa fa-arrow-circle-o-left fa-2x"></i>', TRUE);?></li>
