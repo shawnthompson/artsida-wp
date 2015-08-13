@@ -3,8 +3,9 @@
 			<div class="col-sm-2 hidden-xs pink"></div>
 			<div class="col-sm-3 hidden-xs cyan"></div>
 			<div class="col-sm-7 purple">
-				<h1><?php the_title(); ?></h1>
-				<p><?php _e('[:en]by[:][:fr]par[:]'); ?>: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
+				<h1><?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?><br />
+				<small><?php the_title(); ?></small></h1>
+				
 			</div>
 			<div class="clearfix"></div>
 		</header>
