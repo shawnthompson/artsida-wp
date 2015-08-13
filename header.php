@@ -38,7 +38,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!--[if gte IE 9 | !IE ]><!-->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.min.css">
-	<?php if (is_page_template('page-catalog.php' || 'page-catalog-draft.php' ) | is_single() | is_search()) {?>
+	<?php if (is_single() | is_search()) {?>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<?php } ?>
 	<?php if (is_page_template('page-catalog.php' || 'page-catalog-draft.php')) {?>

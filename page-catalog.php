@@ -44,18 +44,13 @@
 					if ($counter == 4){ $counter = 1; }
 					?>
 		  			<section class="col-sm-6 col-md-4 artwork">
-				<?php
-	    	 		if ( has_post_thumbnail() ) {
-				    add_filter( 'post_thumbnail_html', 'remove_img_attr' ); // removes the size attributes
-					$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );
-					echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '" class="fancybox">';
-						the_post_thumbnail('full', array('class' => 'img-responsive' ));
-						echo '
-						</a>';
-		            }
-				?>
-					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-					<p><?php _e('[:en]by[:][:fr]par[:]'); ?>: <?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?></p>
+					<?php if ( has_post_thumbnail() ) : ?>
+						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+						<?php the_post_thumbnail('full', array('class' => 'img-responsive' )); ?>
+						</a>
+					<?php endif; ?>
+					<h2><?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?><br />
+					<small><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></small></h2>
 			        </section>
                 <?php
 	                if ($counter==2) { echo '<div class="visible-sm clearfix"></div>';}
