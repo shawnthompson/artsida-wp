@@ -85,20 +85,6 @@ header .time-left {
 	padding-bottom: 5px;
 }
 
-header .venue {
-	text-transform: uppercase;
-	font-size: 2em;
-	line-height: 2;
-}
-
-header .venue a {
-	color: #777;
-}
-
-header .venue a:hover {
-	color: #23527c;
-}
-
 header .time-left strong {
 	color: #4eb0af;
 	font-weight: bold;
