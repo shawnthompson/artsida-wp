@@ -44,6 +44,7 @@
 					<ul class="list-unstyled">
 						<li><a href="http://www.westjet.com/guest/en/home.shtml" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsor-westjet.jpg" class="img-responsive" alt="Westjet" /></a></li>
 						<li class="row"><a href="http://www.unmondeunvillage.com/index.php?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/village.jpg" class="img-responsive col-sm-6" alt="Village" /></a></li>
+						<li class="row"><a href="http://www.bellegueule.ca/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/belle-gueule.png" class="img-responsive col-sm-6" alt="La Belle Gueule" /></a></li>
 					</ul>
 				</section>
 			</div>
