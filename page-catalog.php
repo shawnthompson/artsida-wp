@@ -20,7 +20,7 @@
 				'meta_key' => 'firstname',
 				'order' => 'ASC',
 				'paged' => $paged,
-				'posts_per_page' => 10
+				'posts_per_page' => 12
 			);
 			$counter = 0;
 			query_posts( $args ); 
@@ -60,6 +60,7 @@
 	            	<p><?php _e('[:en]Once the Artsida 6 collection has been selected, photos of the selected artwork and artist biographies will be available here. A downloadable and printable colour catalog will also be available.[:][:fr]Une fois la sélection pour Artsida 6 effectuée, cette section présentera une photo des œuvres choisies et la biographie des artistes. Un catalogue couleur pourra aussi être téléchargé et imprimé.[:]'); ?></p>
 				<?php endif; ?>
 			<div class="clearfix"></div>
+			<p class="mrgn-tp-lg text-center well well-sm"><a href="<?php bloginfo('template_url'); ?>/img/marketValue.pdf"><?php _e('[:en]Click here to consult a PDF with the estimated market value of all the pieces in the Artsida 6 collection.[:][:fr]Cliquez ici pour consulter le document PDF comprenant la juste valeur au marché pour toutes les pièces de la collection Artsida 6.[:]'); ?></a></p>
 			<?php bittersweet_pagination() ?>
 			</div>
 		</div>
