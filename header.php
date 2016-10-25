@@ -37,7 +37,7 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!--[if gte IE 9 | !IE ]><!-->
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.css">
 	<?php if (is_single() | is_search()) {?>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<?php } ?>
@@ -66,7 +66,7 @@
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
 					<p class="text-center date"><?php _e('[:en]Wednesday September 30<sup>th</sup> 2015[:][:fr]Mercredi le 30 septembre 2015[:]'); ?></p>
 					<div class="col-xs-8 col-xs-push-2 mrgn-tp-sm">
-						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm-<?php _e('[:en]en[:][:fr]fr[:]'); ?>.jpg" alt="<?php _e('[:en]ACCM: AIDS Community Care Montreal[:][:fr]ACCM: Sida Bénévoles Montréal[:]'); ?>" class="img-responsive" /></a></p>
+						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm-new-<?php _e('[:en]en[:][:fr]fr[:]'); ?>.jpg" alt="<?php _e('[:en]ACCM: AIDS Community Care Montreal[:][:fr]ACCM: Sida Bénévoles Montréal[:]'); ?>" class="img-responsive" /></a></p>
 					</div>
 				</div>
 				<div class="col-xs-2">

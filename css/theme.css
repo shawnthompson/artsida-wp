@@ -95,6 +95,11 @@ header .time-left strong.large {
 	color: #000;
 }
 
+header .col-xs-push-2 img {
+	max-height: 85px;
+	margin:  0 auto;
+}
+
 /* Navigation */
 header nav {
 	z-index: 999;
@@ -487,6 +492,10 @@ footer .fa-4x {
 		background-color: #cc2038;
 	}
 
+	header .col-xs-push-2 img {
+		max-height: 57px;
+	}
+
 	/* Navigation */
 	header nav {
 		display: table;
@@ -622,6 +631,10 @@ footer .fa-4x {
 		font-size: 115%;
 	}
 
+	header .col-xs-push-2 img {
+		max-height: 70px;
+	}
+
 	header nav li a, html[lang="fr"] header nav li a {
 		font-size: 180%
 	}
@@ -673,7 +686,7 @@ footer .fa-4x {
 /* Extra large devices (large desktops, 1500px and up) */
 @media screen and (min-width: 1500px) {
 	header .col-xs-push-2 img {
-		padding: 5px 100px;
+		padding: 0 100px;
 	}
 
 	main .tag {
