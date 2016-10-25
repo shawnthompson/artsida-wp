@@ -93,7 +93,7 @@
 				<p><a target="_blank" href="http://www.espacereunion.ca/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/"><span class="sr-only">Espace Réunion</span><img src="<?php bloginfo('template_url'); ?>/img/espace_reunion.png" alt=""></a></p>
 				<p>6600 rue Hutchison<br />
 				<?php _e('[:en]6:00pm - 9:30pm[:][:fr]18h00 - 21h30[:]'); ?></p>
-				<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 6</strong></span></p>
+				<p class="text-center time-left"><strong><?php _e('[:en]Thanks for your support[:][:fr]Merci de votre soutien[:]'); ?></strong></p>
 		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">

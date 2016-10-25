@@ -52,8 +52,19 @@
 				<?php } ?>
 				<nav>
 				  <ul class="pager">
-				    <li class="previous"><?php previous_post_link('%link', '<i class="fa fa-arrow-circle-o-left fa-2x"></i>', TRUE);?></li>
-				    <li class="next"><?php next_post_link('%link', '<i class="fa fa-arrow-circle-o-right fa-2x"></i>', TRUE);?></li>
+					  <?php 
+						$firstname = get_post_meta($post -> ID, 'firstname', true );
+						$args = array(
+							'cat' => 3,
+							'orderby'  => 'meta_value',
+							'meta_key' => 'firstname',
+							'order' => 'ASC'
+						);
+						query_posts( $args ); 
+					  ?>
+				    <li class="previous"><?php previous_post_link_plus( array('order_by' => 'meta_value',  'meta_key' => 'firstname', 'in_same_cat' => 'true', 'link' => '<i class="fa fa-arrow-circle-o-left fa-2x"></i>', 'format' => '%link') );?></li>
+				    <li class="next"><?php next_post_link_plus( array('order_by' => 'meta_value',  'meta_key' => 'firstname', 'in_same_cat' => 'true', 'link' => '<i class="fa fa-arrow-circle-o-right fa-2x"></i>', 'format' => '%link') );?></li>
+					<?php wp_reset_query(); ?>
 				  </ul>
 				</nav>
 			</div>

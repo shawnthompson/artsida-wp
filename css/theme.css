@@ -235,6 +235,11 @@ main  .btn-primary {
 	background-color: #6e86b6;
 }
 
+main #gallery-1 img {
+	width: 100%;
+	height: 100%;
+}
+
 /* Search */
 
 main .search-everything-highlight-color {

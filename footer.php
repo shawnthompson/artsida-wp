@@ -41,11 +41,12 @@
 				</section>
 				<section>
 					<h3><?php _e('[:en]Partner Sponsors[:][:fr]Commanditaires partenaires[:]'); ?>:</h3>
-					<ul class="list-unstyled">
-						<li><a href="http://www.westjet.com/guest/en/home.shtml" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsor-westjet.jpg" class="img-responsive" alt="Westjet" /></a></li>
-						<li class="row"><a href="http://www.unmondeunvillage.com/index.php?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/village.jpg" class="img-responsive col-sm-6" alt="Village" /></a></li>
-						<li class="row"><a href="http://www.bellegueule.ca/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/belle-gueule.png" class="img-responsive col-sm-6" alt="La Belle Gueule" /></a></li>
-					</ul>
+						<div class="mrgn-bttm-md"><a href="http://www.westjet.com/guest/en/home.shtml" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsor-westjet.jpg" class="img-responsive" alt="Westjet" /></a></div>
+						<div class="row">
+						<div class="mrgn-bttm-md col-xs-6"><a href="http://www.unmondeunvillage.com/index.php?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/village.jpg" class="img-responsive" alt="Village" /></a></div>
+						<div class="mrgn-bttm-md col-xs-6"><a href="http://www.bellegueule.ca/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/belle-gueule.png" class="img-responsive" alt="La Belle Gueule" /></a></div>
+						<div class="mrgn-bttm-md col-xs-6"><a href="http://madcatering.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/mad.jpg" class="img-responsive" alt="Traiteur M.A.D. Catering and Café" /></a></div>
+						</div>
 				</section>
 			</div>
 		</section>
