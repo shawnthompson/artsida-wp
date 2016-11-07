@@ -89,9 +89,8 @@
 					</ul>
 				</section>
 			</div>
-				<p><a target="_blank" href="http://www.espacereunion.ca/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/"><span class="sr-only">Espace Réunion</span><img src="<?php bloginfo('template_url'); ?>/img/espace_reunion.png" alt=""></a></p>
-				<p>6600 rue Hutchison<br />
-				<?php _e('[:en]6:00pm - 9:30pm[:][:fr]18h00 - 21h30[:]'); ?></p>
+				<p class="mrgn-bttm-lg"><a target="_blank" href="<?php _e('[:en]http://www.macm.org/en/[:][:fr]http://www.macm.org/[:]'); ?>"><span lang="fr" class="sr-only">Musée d'art contemporain de Montréal</span><img src="<?php bloginfo('template_url'); ?>/img/logo-mac.png" alt=""></a></p>
+				<p>185 Ste. Catherine <?php _e('[:en]West[:][:fr]ouest[:]'); ?></p>
 				<p class="text-center time-left"><strong><?php _e('[:en]Thanks for your support[:][:fr]Merci de votre soutien[:]'); ?></strong></p>
 		</div>
 		<div class="col-sm-12 menu">
