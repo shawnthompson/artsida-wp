@@ -66,7 +66,7 @@
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
 					<p class="text-center date"><?php _e('[:en]Wednesday September 30<sup>th</sup> 2015[:][:fr]Mercredi le 30 septembre 2015[:]'); ?></p>
 					<div class="col-xs-8 col-xs-push-2 mrgn-tp-sm">
-						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm-new-<?php _e('[:en]en[:][:fr]fr[:]'); ?>.jpg" alt="<?php _e('[:en]ACCM: AIDS Community Care Montreal[:][:fr]ACCM: Sida Bénévoles Montréal[:]'); ?>" class="img-responsive" /></a></p>
+						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
 					</div>
 				</div>
 				<div class="col-xs-2">
