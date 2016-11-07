@@ -77,8 +77,7 @@
 		</div>
 		<div class="col-sm-4 yellow info">
 			<div class="row">
-				<div class="col-xs-10 text-left"><p class="small"><a href="mailto:artsida@accmontreal.org"><?php _e('[:en]Subscribe to the Artsida newsletter[:][:fr]Abonnez-vous au bulletin électronique d\'Artsida[:]'); ?></a></p></div>
-				<section class="col-xs-2">
+				<section class="col-xs-12 text-right">
 					<h2 class="sr-only"><?php _e('[:en]Language selection[:][:fr]Sélection de langue[:]'); ?></h2>
 					<ul class="list-unstyled">
 					<?php
