@@ -1,5 +1,5 @@
 <?php
-	$date = strtotime("September 30, 2015 18:00");
+	$date = strtotime("March 12, 2017 18:00");
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
@@ -91,7 +91,7 @@
 			</div>
 				<p class="mrgn-bttm-lg"><a target="_blank" href="<?php _e('[:en]http://www.macm.org/en/[:][:fr]http://www.macm.org/[:]'); ?>"><span lang="fr" class="sr-only">Musée d'art contemporain de Montréal</span><img src="<?php bloginfo('template_url'); ?>/img/logo-mac.png" alt=""></a></p>
 				<p>185 Ste. Catherine <?php _e('[:en]West[:][:fr]ouest[:]'); ?></p>
-				<p class="text-center time-left"><strong><?php _e('[:en]Thanks for your support[:][:fr]Merci de votre soutien[:]'); ?></strong></p>
+				<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 7</strong></span></p>
 		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">
