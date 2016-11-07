@@ -64,7 +64,7 @@
 				<div class="col-xs-8">
 					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><span class="sr-only">Artsida 6</span><img src="<?php bloginfo('template_url'); ?>/img/artsida6.jpg" class="center-block img-responsive" alt="" /></a></h1>
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
-					<p class="text-center date"><?php _e('[:en]Wednesday September 30<sup>th</sup> 2015[:][:fr]Mercredi le 30 septembre 2015[:]'); ?></p>
+					<p class="text-center date"><?php _e('[:en]Sunday March 12<sup>th</sup>[:][:fr]Dimanche le 12 mars[:]'); ?> 2017</p>
 					<div class="col-xs-8 col-xs-push-2 mrgn-tp-sm">
 						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
 					</div>
