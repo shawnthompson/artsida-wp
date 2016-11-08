@@ -113,7 +113,7 @@
 				        ?>
 					</div>
 				</div>
-				<div class="col-sm-3 red cell"><p class="bids"><a href="http://artsida.org/control-wp/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/absentee/"><?php _e('[:en]Absentee bids[:][:fr]Mise à distance[:]'); ?></a></p></div>
+				<div class="col-sm-3 red cell"><p class="bids"><a href="http://artsida.org/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/absentee/"><?php _e('[:en]Absentee bids[:][:fr]Mise à distance[:]'); ?></a></p></div>
 				<div class="col-sm-1 pink hidden-xs cell"></div>
 			</div>
 		</div>
