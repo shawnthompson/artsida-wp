@@ -56,7 +56,7 @@
 </head>
 <body <?php body_class(); ?>>
 	<header class="relative">
-		<div class="col-sm-8">
+		<div class="col-sm-8 mrgn-tp-md">
 			<div class="row">
 				<div class="col-xs-2 mrgn-tp-md">
 					<p class="mrgn-tp-lg"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/logo.gif" alt="Artsida logo" /></a></p>
@@ -89,10 +89,12 @@
 					</ul>
 				</section>
 			</div>
+			<div class="venue">
 				<p class="mrgn-bttm-lg"><a target="_blank" href="<?php _e('[:en]http://www.macm.org/en/[:][:fr]http://www.macm.org/[:]'); ?>"><span lang="fr" class="sr-only">Musée d'art contemporain de Montréal</span><img src="<?php bloginfo('template_url'); ?>/img/logo-mac.png" alt=""></a></p>
+			</div>
 				<p>185 Ste. Catherine <?php _e('[:en]West[:][:fr]ouest[:]'); ?><br />
-				<?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
-				<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 7</strong></span></p>
+			<?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
+			<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 7</strong></span></p>
 		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">
