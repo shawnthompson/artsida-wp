@@ -15,7 +15,7 @@
 		<div class="col-sm-12 text">
 		<?php
 			$args = array(
-				'cat' => 3,
+				'cat' => 2,
 				'orderby'  => 'meta_value',
 				'meta_key' => 'firstname',
 				'order' => 'ASC',
@@ -23,7 +23,7 @@
 				'posts_per_page' => 12
 			);
 			$counter = 0;
-			query_posts( $args ); 
+			query_posts( $args );
 		?>
 		<?php if (have_posts()) { ?>
 		<div class="pull-right"><?php get_search_form(); ?></div>
@@ -37,7 +37,7 @@
 			?>
 			</div>
 			<div class="col-sm-8">
-			<?php 	
+			<?php
 					if ( have_posts() ) :
 					while ( have_posts() ) : the_post();
 					$counter++;

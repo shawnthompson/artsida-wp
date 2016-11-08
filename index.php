@@ -9,7 +9,7 @@
 			$args = array(
 				'orderby'        => 'rand',
 				'posts_per_page' => '3',
-				'cat' => '3'
+				'cat' => '2'
 
 			);
 			// The Query
@@ -60,9 +60,9 @@
 				<div class="item">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel3-new.png" alt="" />
 				</div>
-			
+
 			<?php endif; ?>
-			
+
 
 			</div>
 			<!-- Controls -->
