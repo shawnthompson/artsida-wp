@@ -82,10 +82,10 @@
 					<ul class="list-unstyled">
 					<?php
 						if (!is_home()) {
-							$postid = 'p=' . get_the_ID() . '&amp;' ;
+							$postid = get_page_uri( $page_id );
 						}
 					?>
-						<li class="text-right"><a lang="<?php _e('[:en]fr[:][:fr]en[:]'); ?>" href="?<?php echo $postid; ?>lang=<?php _e('[:en]fr[:][:fr]en[:]'); ?>" class="lang"><?php _e('[:en]Fr<span class="sr-only">ançais</span>[:][:fr]En<span class="sr-only">glais</span>[:]'); ?></a></li>
+						<li class="text-right"><a lang="<?php _e('[:en]fr[:][:fr]en[:]'); ?>" href="<?php _e('[:en]/fr/[:][:fr]/en/[:]'); ?><?php echo $postid; ?>" class="lang"><?php _e('[:en]Fr<span class="sr-only">ançais</span>[:][:fr]En<span class="sr-only">glais</span>[:]'); ?></a></li>
 					</ul>
 				</section>
 			</div>
