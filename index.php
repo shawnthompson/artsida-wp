@@ -9,7 +9,7 @@
 			$args = array(
 				'orderby'        => 'rand',
 				'posts_per_page' => '3',
-				'cat' => '3'
+				'cat' => '2'
 
 			);
 			// The Query
@@ -60,9 +60,9 @@
 				<div class="item">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel3-new.png" alt="" />
 				</div>
-			
+
 			<?php endif; ?>
-			
+
 
 			</div>
 			<!-- Controls -->
@@ -85,7 +85,7 @@
 			<div class="hidden-xs col-sm-6 cyan"></div>
 			<div class="hidden-xs col-sm-4 red relative"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pic1.jpg" class="photoh bottom-left" alt=""></div>
 
-			<div class="col-sm-5 col-md-6 purple responsive"><p class="tag"><?php _e('[:en]Two round trip WestJet flights to North America/Europe to raffle![:][:fr]Deux billets WestJet aller-retour en Amérique du Nord/Europe à tirer![:]'); ?></p><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pic4.jpg" class="hidden-xs bottom-right photoh" alt=""></div>
+			<div class="col-sm-5 col-md-6 purple responsive"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pic4.jpg" class="hidden-xs bottom-right photoh" alt=""></div>
 			<div class="hidden-xs col-sm-5 col-md-4 yellow"></div>
 			<div class="hidden-xs col-sm-2 cyan"></div>
 
