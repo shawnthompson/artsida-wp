@@ -10,11 +10,12 @@
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:image" content="http://artsida.org/wp-content/themes/artsida-wp/img/logo.gif" />
+	<meta property="og:image" content="http://artsida.org/artsida.jpg" />
 	<meta property="og:title" content="Artsida 7 - March 12th, 2017" />
 	<meta property="og:url" content="http://artsida.org" />
 	<meta property="og:site_name" content="Artsida 7"/>
-	<meta property="og:type" content="Event"/>
+	<meta property="og:type" content="Website"/>
+	<meta property="og:description" content="Artsida is an art auction fundraiser for AIDS Community Care Montreal, a volunteer-based community organization working to enhance the quality of life of people living with HIV/AIDS, to prevent HIV transmission, and to promote community awareness and action."/>
 	<?php if (is_search()) { ?>
 	   <meta name="robots" content="noindex, nofollow" />
 	<?php } ?>
