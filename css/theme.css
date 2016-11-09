@@ -58,24 +58,28 @@ header .date {
 
 header .info {
 	padding: 20px;
+  font-size: 130%;
 	font-weight: bold;
-	text-align: center
+  padding-bottom: 20px;
+	text-align: center;
 }
 
 header .small {
 	font-size: 40%;
 }
 
-header .info {
-	font-size: 130%;
-}
-
 header .info .small {
 	font-size: 70%;
 	margin-top: 10px;
 }
+
 header .lang {
 	text-transform: uppercase;
+}
+
+header .venue img {
+  height: 50px;
+  margin-top: 15px;
 }
 
 header .time-left {
@@ -472,7 +476,7 @@ footer .fa-4x {
 		text-align: right;
 		font-size: 100%;
 		margin-bottom: 0;
-		padding-bottom: 0;
+    padding-bottom: 25px;
 	}
 
 	header .info .small {
