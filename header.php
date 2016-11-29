@@ -73,8 +73,7 @@
 				<div class="col-xs-8">
 					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><span class="sr-only">Artsida 7</span><img src="<?php bloginfo('template_url'); ?>/img/artsida7.jpg" class="center-block img-responsive" alt="" /></a></h1>
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
-					<p class="text-center date"><?php _e('[:en]Sunday March 12<sup>th</sup>[:][:fr]Dimanche le 12 mars[:]'); ?> 2017</p>
-					<div class="col-xs-8 col-xs-push-2 mrgn-tp-sm">
+					<div class="col-xs-8 col-xs-push-2 accm-logo">
 						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
 					</div>
 				</div>
@@ -101,8 +100,11 @@
 			<div class="venue">
 				<p class="mrgn-bttm-lg"><a target="_blank" href="<?php _e('[:en]http://www.macm.org/en/[:][:fr]http://www.macm.org/[:]'); ?>"><span lang="fr" class="sr-only">Musée d'art contemporain de Montréal</span><img src="<?php bloginfo('template_url'); ?>/img/logo-mac.png" alt=""></a></p>
 			</div>
-				<p>185 Ste. Catherine <?php _e('[:en]West[:][:fr]ouest[:]'); ?><br />
-			<?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
+			<div class="event">
+				<p class="address">185 Ste. Catherine <?php _e('[:en]West[:][:fr]ouest[:]'); ?></p>
+				<p class="date"><?php _e('[:en]Sunday March 12<sup>th</sup>[:][:fr]Dimanche le 12 mars[:]'); ?> 2017</p>
+				<p class="time"><?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
+			</div>
 			<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 7</strong></span></p>
 		</div>
 		<div class="col-sm-12 menu">

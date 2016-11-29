@@ -53,7 +53,7 @@ header h2 {
 }
 
 header .date {
-	font-size: 95%;
+	font-size: 125%;
 }
 
 header .info {
@@ -75,6 +75,11 @@ header .info .small {
 
 header .lang {
 	text-transform: uppercase;
+}
+
+header .event p {
+  margin: 0;
+  padding: 0;
 }
 
 header .venue img {
@@ -99,9 +104,9 @@ header .time-left strong.large {
 	color: #000;
 }
 
-header .col-xs-push-2 img {
+header .accm-logo img {
 	max-height: 85px;
-	margin:  0 auto;
+	margin:  35px auto;
 }
 
 /* Navigation */
@@ -464,10 +469,6 @@ footer .fa-4x {
 		font-size: 165%;
 	}
 
-	header .date {
-		font-size: 115%;
-	}
-
 	header .small {
 		font-size: 0.7em;
 	}
@@ -476,7 +477,6 @@ footer .fa-4x {
 		text-align: right;
 		font-size: 100%;
 		margin-bottom: 0;
-    padding-bottom: 25px;
 	}
 
 	header .info .small {
@@ -658,10 +658,6 @@ footer .fa-4x {
 @media screen and (min-width: 1200px) {
 	footer .fa-4x {
 		 font-size: 4em;
-	}
-
-	header .info .time-left {
-		padding-bottom: 20px;
 	}
 
 	header nav li a, html[lang="fr"] header nav li a {
