@@ -327,6 +327,14 @@ footer .fa-4x {
 	font-size: 335%;
 }
 
+footer .sponsor [class*="col"] {
+  margin-bottom: 30px;
+}
+
+footer .sponsor img {
+  width: 70%;
+}
+
 /* Utilities */
 .relative {
 	position: relative !important;
@@ -594,6 +602,10 @@ footer .fa-4x {
 		 font-size: 3.3em;
 	}
 
+  footer .sponsor img {
+    width: 60%;
+  }
+
 	/* Single page */
 	.single main h1 {
 		font-size: 240%;
@@ -659,7 +671,6 @@ footer .fa-4x {
   footer .sponsor img {
     width: 50%;
   }
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -689,6 +700,10 @@ footer .fa-4x {
 	main .tag {
 		width: 70%;
 	}
+
+  footer .sponsor img {
+    width: 40%;
+  }
 
 }
 /* Extra large devices (large desktops, 1500px and up) */
