@@ -310,12 +310,8 @@ footer {
 	padding: 15px;
 }
 
-footer .sponsors h3 {
+footer h3 {
 	font-size: 1em;
-}
-
-footer .sponsors ul li {
-	margin-bottom: 15px;
 }
 
 footer .media {
@@ -328,12 +324,19 @@ footer .media ul li {
 }
 
 footer .fa-4x {
-	 font-size: 335%;
+	font-size: 335%;
 }
 
 /* Utilities */
 .relative {
 	position: relative !important;
+}
+
+.vertical-center
+{
+ display: table-cell;
+ float: none;
+ vertical-align: middle;
 }
 
 [class*="photo"] {
@@ -582,6 +585,7 @@ footer .fa-4x {
 		bottom: 0;
 		right: 0;
 	}
+
 	footer .media ul li {
 		display: block;
 	}
@@ -651,6 +655,10 @@ footer .fa-4x {
 		font-size: 1.5em;
 		width: 50%;
 	}
+
+  footer .sponsor img {
+    width: 50%;
+  }
 
 }
 

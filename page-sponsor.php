@@ -24,6 +24,7 @@
 			<div class="col-sm-8">
 			<?php the_content(); ?>
 			<h2><?php _e('[:en]Partner Sponsors[:][:fr]Commanditaires partenaires[:]'); ?></h2>
+
 			<ul class="list-unstyled sponsor-list">
 <?php
 				query_posts( 'cat=3' . '&order=ASC'); while (have_posts()) { the_post(); ?>
