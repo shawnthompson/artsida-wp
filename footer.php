@@ -1,40 +1,54 @@
 	<div class="clearfix"></div>
 	</main>
-	<footer class="col-xs-12">
-		<div class="col-sm-6 col-sm-push-6">
-			<section class="col-xs-6">
-				<h2 class="sr-only">Social Media</h2>
-				<ul class="list-inline">
-					<li>
-						<a target="_blank" href="https://www.facebook.com/ARTSIDA/"><i class="fa fa-facebook-square fa-4x"></i><span class="sr-only">Facebook</span></a>
-					</li>
-					<li>
-						<a target="_blank" href="https://twitter.com/ARTSIDA7"><i class="fa fa-twitter-square fa-4x"></i><span class="sr-only">Twitter</span></a>
-					</li>
-				</ul>
-			</section>
-			<section class="col-xs-6 text-right media">
-				<h2 class="sr-only"><?php _e('[:en]Information links[:][:fr]Liens d\'informations[:]'); ?></h2>
-				<?php wp_nav_menu( array('footer_menu' => 'Footer Menu', 'menu_class' => 'list-unstyled') );?>
-			</section>
-		</div>
-		<section class="col-xs-12 col-sm-6 col-sm-pull-6 sponsors">
-			<h2 class="sr-only"><?php _e('[:en]Sponsors[:][:fr]Commanditaires[:]'); ?></h2>
-			<section class="col-xs-6">
-				<h3><?php _e('[:en]Presented by[:][:fr]Présenté par[:]'); ?>:</h3>
-				<ul class="list-unstyled">
-					<li><a target="_blank" href="http://www.td.com/"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD"></a></li>
-				</ul>
-			</section>
-			<div class="col-xs-6">
-				<section>
-					<h3><?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>:</h3>
-						<ul class="list-unstyled">
-							<li><a target="_blank" href="http://www.encadrex.com/"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a></li>
-						</ul>
-				</section>
-			</div>
+	<footer>
+		<section class="col-xs-3 text-right media pull-right">
+			<h2 class="sr-only"><?php _e('[:en]Information links[:][:fr]Liens d\'informations[:]'); ?></h2>
+			<?php wp_nav_menu( array('footer_menu' => 'Footer Menu', 'menu_class' => 'list-unstyled') );?>
 		</section>
+		<section class="col-xs-3 pull-right">
+			<h2 class="sr-only">Social Media</h2>
+			<ul class="list-inline">
+				<li>
+					<a target="_blank" href="https://www.facebook.com/ARTSIDA/"><i class="fa fa-facebook-square fa-4x"></i><span class="sr-only">Facebook</span></a>
+				</li>
+				<li>
+					<a target="_blank" href="https://twitter.com/ARTSIDA7"><i class="fa fa-twitter-square fa-4x"></i><span class="sr-only">Twitter</span></a>
+				</li>
+			</ul>
+		</section>
+		<section class="col-xs-3">
+			<h3><?php _e('[:en]Presented by[:][:fr]Présenté par[:]'); ?>:</h3>
+				<a target="_blank" href="<?php _e('[:en]https://www.td.com/about-tdbfg/our-business/index.jsp[:][:fr]https://www.td.com/francais/a-propos-du-gfbtd/nos-entreprises/index.jsp[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD"></a>
+		</section>
+		<section class="col-xs-3">
+			<h3><?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>:</h3>
+				<a target="_blank" href="http://www.encadrex.com/index.php/<?php _e('[:en]en-US/[:][:fr]fr/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
+		</section>
+		<div class="col-xs-8 row">
+			<div class="col-xs-4 vertical-center">
+				<a target="_blank" href="http://www.eskawater.com/?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-eska.png" alt=""></a>
+			</div>
+			<div class="col-xs-4 vertical-center">
+				<a target="_blank" href="<?php _e('[:en]http://image-24.com/[:][:fr]http://image-24.com/fr/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-image24.png" alt=""></a>
+			</div>
+			<div class="col-xs-4 vertical-center">
+				<a target="_blank" href="http://maysys.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-maysys.png" alt=""></a>
+			</div>
+		</div>
+		<div class="col-xs-8 row sponsor">
+			<div class="col-xs-2 vertical-center">
+				<a target="_blank" href="https://www.matelasbonheur.ca/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-matelas.png" alt=""></a>
+			</div>
+			<div class="col-xs-2 vertical-center">
+				<a target="_blank" href="http://pamco.ca/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-pamco.jpg" alt=""></a>
+			</div>
+			<div class="col-xs-2 vertical-center">
+				<a target="_blank" href="<?php _e('[:en]http://codespark.ca/en/[:][:fr]http://codespark.ca/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-CodeSpark.png" alt=""></a>
+			</div>
+			<div class="col-xs-2 vertical-center">
+				<a target="_blank" href="<?php _e('[:en]http://lmkca.com/en/[:][:fr]http://lmkca.com[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-lacharite.png" alt=""></a>
+			</div>
+		</div>
 	</footer>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
