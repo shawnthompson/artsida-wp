@@ -299,12 +299,6 @@ main .search-everything-highlight-color {
 	margin-left: 15px;
 }
 
-/* Sponsor page */
-
-main .sponsor-list li {
-	margin-bottom: 25px;
-}
-
 /* Footer */
 footer {
 	padding: 15px;
@@ -327,11 +321,11 @@ footer .fa-4x {
 	font-size: 335%;
 }
 
-footer .sponsor [class*="col"] {
+.sponsor [class*="col"] {
   margin-bottom: 30px;
 }
 
-footer .sponsor img {
+.sponsor img {
   width: 70%;
 }
 
@@ -602,7 +596,7 @@ footer .sponsor img {
 		 font-size: 3.3em;
 	}
 
-  footer .sponsor img {
+  .sponsor img {
     width: 60%;
   }
 
@@ -668,7 +662,7 @@ footer .sponsor img {
 		width: 50%;
 	}
 
-  footer .sponsor img {
+  .sponsor img {
     width: 50%;
   }
 }
@@ -701,7 +695,7 @@ footer .sponsor img {
 		width: 70%;
 	}
 
-  footer .sponsor img {
+  .sponsor img {
     width: 40%;
   }
 
