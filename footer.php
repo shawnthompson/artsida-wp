@@ -51,6 +51,9 @@
 				<div class="col-xs-4">
 					<a target="_blank" href="<?php _e('[:en]http://theratech.com[:][:fr]http://theratech.com/fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-thera.png" alt=""></a>
 				</div>
+				<div class="col-xs-4">
+					<a target="_blank" href="<?php _e('[:en]http://www.montrealgayvillage.com[:][:fr]http://www.villagegaimontreal.com/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-village.png" alt=""></a>
+				</div>
 		</div>
 	</footer>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
