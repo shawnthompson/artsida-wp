@@ -25,13 +25,16 @@
 				<a target="_blank" href="http://www.encadrex.com/index.php/<?php _e('[:en]en-US/[:][:fr]fr/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
 		</section>
 		<div class="col-xs-8 row mrgn-bttm-lg">
-			<div class="col-xs-4">
+			<div class="col-xs-3">
+				<a target="_blank" href="http://www.telus.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/qc/index.jsp"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-telus.png" alt=""></a>
+			</div>
+			<div class="col-xs-3">
 				<a target="_blank" href="http://www.eskawater.com/?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-eska.png" alt=""></a>
 			</div>
-			<div class="col-xs-4">
+			<div class="col-xs-3">
 				<a target="_blank" href="<?php _e('[:en]http://image-24.com/[:][:fr]http://image-24.com/fr/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-image24.png" alt=""></a>
 			</div>
-			<div class="col-xs-4">
+			<div class="col-xs-3">
 				<a target="_blank" href="http://maysys.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-maysys.png" alt=""></a>
 			</div>
 		</div>
