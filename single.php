@@ -5,7 +5,7 @@
 			<div class="col-sm-7 purple">
 				<h1><?php echo get_post_meta($post -> ID, 'firstname', true );?> <?php echo get_post_meta($post -> ID, 'lastname', true );?><br />
 				<small><?php the_title(); ?></small></h1>
-				
+
 			</div>
 			<div class="clearfix"></div>
 		</header>
@@ -24,7 +24,7 @@
 			</div>
 			<div class="col-sm-6">
 				<?php the_content(); ?>
-				<?php 
+				<?php
 					$width = get_post_meta($post -> ID, 'width', true );
 					$height = get_post_meta($post -> ID, 'height', true );
 					$year = get_post_meta($post -> ID, 'year', true );
@@ -33,7 +33,7 @@
 				<h2><?php _e('[:en]Details[:][:fr]Détails[:]'); ?></h2>
 				<dl class="dl-horizontal">
 				  <dt>Dimensions:</dt>
-				  <dd><?php if ( empty( $width || $height) ) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?> 
+				  <dd><?php if ( empty( $width || $height) ) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?>
 				<?php else : echo $width . '" X ' . $height . '"';?>
 				 <?php endif; ?></dd>
 				  <dt><?php _e('[:en]Year produced[:][:fr]Année produit[:]'); ?>:</dt>
@@ -41,33 +41,34 @@
 				  <dt><?php _e('[:en]Medium[:][:fr]Médium[:]'); ?>:</dt>
 				  <dd><?php if ( empty ($medium)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $medium;?><?php endif; ?></dd>
 				</dl>
-				<?php 
+				<!-- <?php
 					$selected = get_field('sale');
-					if( in_array('yes:Yes', $selected) ) {?>
+					if( array('yes:yes', $selected) ) {?>
 						<h2><?php _e('[:en]Direct sale[:][:fr]Vente Directe[:]'); ?></h2>
 						<p><?php _e('
 							[:en]This piece is for sale exclusively on the night of our September 19<sup>th</sup> vernissage. Make sure to come early so as not to miss out.[:]
 							[:fr]Cette &oelig;uvre sera mise en vente exclusivement lors du vernissage le 19 septembre.  Arrivez tôt afin de ne pas rater votre chance.[:]
 							'); ?></p>
-				<?php } ?>
+				<?php } ?> -->
+				<?php
+				$firstname = get_post_meta($post -> ID, 'firstname', true );
+				$args = array(
+					'cat' => 2,
+					'orderby'  => 'meta_value',
+					'meta_key' => 'firstname',
+					'order' => 'ASC'
+				);
+				query_posts( $args );
+				?>
+			<?php if (have_posts() ) : ?>
 				<nav>
 				  <ul class="pager">
-					  <?php 
-						$firstname = get_post_meta($post -> ID, 'firstname', true );
-						$args = array(
-							'cat' => 3,
-							'orderby'  => 'meta_value',
-							'meta_key' => 'firstname',
-							'order' => 'ASC'
-						);
-						query_posts( $args ); 
-					  ?>
-				    <li class="previous"><?php previous_post_link_plus( array('order_by' => 'meta_value',  'meta_key' => 'firstname', 'in_same_cat' => 'true', 'link' => '<i class="fa fa-arrow-circle-o-left fa-2x"></i>', 'format' => '%link') );?></li>
-				    <li class="next"><?php next_post_link_plus( array('order_by' => 'meta_value',  'meta_key' => 'firstname', 'in_same_cat' => 'true', 'link' => '<i class="fa fa-arrow-circle-o-right fa-2x"></i>', 'format' => '%link') );?></li>
-					<?php wp_reset_query(); ?>
+				    <li class="previous"><?php previous_post_link_plus( array('order_by' => 'custom',  'meta_key' => 'firstname', 'loop' => true, 'in_same_cat' => 'true', 'link' => '<i class="fa fa-arrow-circle-o-left fa-2x"></i>', 'format' => '%link') );?></li>
+				    <li class="next"><?php next_post_link_plus( array('order_by' => 'custom',  'meta_key' => 'firstname', 'loop' => true, 'in_same_cat' => 'true', 'link' => '<i class="fa fa-arrow-circle-o-right fa-2x"></i>', 'format' => '%link') );?></li>
 				  </ul>
 				</nav>
+			<?php endif; ?>
+			<?php wp_reset_query(); ?>
 			</div>
 		</div>
 <?php wp_reset_query(); get_footer(); ?>
-
