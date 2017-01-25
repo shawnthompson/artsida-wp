@@ -14,6 +14,8 @@
 		</div>
 		<div class="col-sm-12 text">
 		<?php
+			$post_date = strtotime( the_date( 'Y-m-d', '', '', false ) );
+			$cutoff_date = strtotime( '2018-12-31' );
 			$args = array(
 				'cat' => 2,
 				'orderby'  => 'meta_value',
@@ -25,7 +27,7 @@
 			$counter = 0;
 			query_posts( $args );
 		?>
-		<?php if (have_posts()) { ?>
+		<?php if (have_posts() && $post_date > $cutoff_date ) { ?>
 		<div class="pull-right"><?php get_search_form(); ?></div>
 		<?php } ?>
 			<div class="hidden-xs col-sm-4 mrgn-bttm-lg">
@@ -38,7 +40,7 @@
 			</div>
 			<div class="col-sm-8">
 			<?php
-					if ( have_posts() ) :
+					if ( have_posts() && $post_date > $cutoff_date ) :
 					while ( have_posts() ) : the_post();
 					$counter++;
 					if ($counter == 4){ $counter = 1; }
@@ -56,12 +58,12 @@
 	                if ($counter==2) { echo '<div class="visible-sm clearfix"></div>';}
 	                if ($counter==3) { echo '<div class="visible-md visible-lg clearfix"></div>';} ?>
  				<?php endwhile; ?>
+				<div class="clearfix"></div>
+				<p class="mrgn-tp-lg text-center well well-sm"><a href="<?php bloginfo('template_url'); ?>/img/marketValue.pdf"><?php _e('[:en]Click here to consult a PDF with the estimated market value of all the pieces in the Artsida 6 collection.[:][:fr]Cliquez ici pour consulter le document PDF comprenant la juste valeur au marché pour toutes les pièces de la collection Artsida 6.[:]'); ?></a></p>
+				<?php bittersweet_pagination() ?>
 	            <?php else : ?>
-	            	<p><?php _e('[:en]Once the Artsida 6 collection has been selected, photos of the selected artwork and artist biographies will be available here. A downloadable and printable colour catalog will also be available.[:][:fr]Une fois la sélection pour Artsida 6 effectuée, cette section présentera une photo des œuvres choisies et la biographie des artistes. Un catalogue couleur pourra aussi être téléchargé et imprimé.[:]'); ?></p>
+	            	<p><?php _e('[:en]Once the Artsida 7 collection has been selected, photos of the selected artwork and artist biographies will be available here. A downloadable and printable colour catalog will also be available.[:][:fr]Une fois la sélection pour Artsida 7 effectuée, cette section présentera une photo des œuvres choisies et la biographie des artistes. Un catalogue couleur pourra aussi être téléchargé et imprimé.[:]'); ?></p>
 				<?php endif; ?>
-			<div class="clearfix"></div>
-			<p class="mrgn-tp-lg text-center well well-sm"><a href="<?php bloginfo('template_url'); ?>/img/marketValue.pdf"><?php _e('[:en]Click here to consult a PDF with the estimated market value of all the pieces in the Artsida 6 collection.[:][:fr]Cliquez ici pour consulter le document PDF comprenant la juste valeur au marché pour toutes les pièces de la collection Artsida 6.[:]'); ?></a></p>
-			<?php bittersweet_pagination() ?>
 			</div>
 		</div>
 <?php wp_reset_query(); get_footer(); ?>
