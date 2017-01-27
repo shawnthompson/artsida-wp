@@ -267,6 +267,18 @@ main .search-everything-highlight-color {
 	font-size: 100%;
 }
 
+.direct-sale {
+	background-color: rgba(225,215,58,1);
+  padding: 25px;
+  color: #C00;
+  border: solid #000 5px;
+  box-shadow: -3px 3px 3px #999;
+}
+
+.direct-sale h2 {
+  margin-top: 0;
+}
+
 .single main header h1 {
 	padding-bottom: 5px;
 	text-align: left;

@@ -41,15 +41,15 @@
 				  <dt><?php _e('[:en]Medium[:][:fr]Médium[:]'); ?>:</dt>
 				  <dd><?php if ( empty ($medium)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $medium;?><?php endif; ?></dd>
 				</dl>
-				<!-- <?php
-					$selected = get_field('sale');
-					if( array('yes:yes', $selected) ) {?>
-						<h2><?php _e('[:en]Direct sale[:][:fr]Vente Directe[:]'); ?></h2>
-						<p><?php _e('
-							[:en]This piece is for sale exclusively on the night of our September 19<sup>th</sup> vernissage. Make sure to come early so as not to miss out.[:]
-							[:fr]Cette &oelig;uvre sera mise en vente exclusivement lors du vernissage le 19 septembre.  Arrivez tôt afin de ne pas rater votre chance.[:]
-							'); ?></p>
-				<?php } ?> -->
+					<?php if( get_field('sale') == 'yes' ): ?>
+						<section class="direct-sale">
+							<h2><?php _e('[:en]Direct sale[:][:fr]Vente Directe[:]'); ?></h2>
+							<p><?php _e('
+								[:en]This piece is for sale exclusively on the night of our March 14<sup>th</sup> vernissage. Make sure to come early so as not to miss out.[:]
+								[:fr]Cette &oelig;uvre sera mise en vente exclusivement lors du vernissage le 14 mars.  Arrivez tôt afin de ne pas rater votre chance.[:]
+								'); ?></p>
+						</section>
+				<?php endif; ?>
 				<?php
 				$firstname = get_post_meta($post -> ID, 'firstname', true );
 				$args = array(
