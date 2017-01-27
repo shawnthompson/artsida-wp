@@ -33,15 +33,6 @@
 				 echo ' - page '. $paged; }
 		   ?>
 	</title>
-	<meta property="og:image" content="http://artsida.org/artsida7-og2.jpg" />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="630" />
-	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:title" content="Artsida 7 - March 12th, 2017" />
-	<meta property="og:url" content="http://artsida.org" />
-	<meta property="og:site_name" content="Artsida 7"/>
-	<meta property="og:type" content="Website"/>
-	<meta property="og:description" content="Artsida is an art auction fundraiser for AIDS Community Care Montreal, a volunteer-based community organization working to enhance the quality of life of people living with HIV/AIDS, to prevent HIV transmission, and to promote community awareness and action."/>
 	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico"  type="image/x-icon">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
