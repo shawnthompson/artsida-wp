@@ -45,6 +45,9 @@
 				<div class="col-xs-4 col-sm-3">
 					<a target="_blank" href="http://www.stellaartois.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>_ca/home.html"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-stella.png" alt=""></a>
 				</div>
+				<div class="col-xs-4 col-sm-3">
+					<a target="_blank" href="https://kibouthe.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-kibou.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 		<div class="row sponsor">
