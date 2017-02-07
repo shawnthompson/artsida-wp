@@ -24,21 +24,27 @@
 			<h3><?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>:</h3>
 				<a target="_blank" href="http://www.encadrex.com/index.php/<?php _e('[:en]en-US/[:][:fr]fr/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
 		</section>
-		<div class="col-xs-8 row mrgn-bttm-lg">
-			<div class="col-xs-3">
-				<a target="_blank" href="http://www.telus.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/qc/index.jsp"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-telus.png" alt=""></a>
-			</div>
-			<div class="col-xs-3">
-				<a target="_blank" href="http://www.eskawater.com/?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-eska.png" alt=""></a>
-			</div>
-			<div class="col-xs-3">
-				<a target="_blank" href="<?php _e('[:en]http://image-24.com/[:][:fr]http://image-24.com/fr/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-image24.png" alt=""></a>
-			</div>
-			<div class="col-xs-3">
-				<a target="_blank" href="http://maysys.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-maysys.png" alt=""></a>
+		<section class="col-xs-9 mrgn-bttm-lg">
+			<h3><?php _e('[:en]Audience Choice Award Presenter[:][:fr]Présentateur du Prix du public[:]'); ?>:</h3>
+			<a target="_blank" href="<?php _e('[:en]http://www.claudecormier.com/en/[:][:fr]http://www.claudecormier.com/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-claude-cormier.png" alt="encadrex"></a>
+		</section>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="col-xs-4 col-sm-3">
+					<a target="_blank" href="http://www.telus.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/qc/index.jsp"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-telus.png" alt=""></a>
+				</div>
+				<div class="col-xs-4 col-sm-3">
+					<a target="_blank" href="http://www.eskawater.com/?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-eska.png" alt=""></a>
+				</div>
+				<div class="col-xs-4 col-sm-3">
+					<a target="_blank" href="<?php _e('[:en]http://image-24.com/[:][:fr]http://image-24.com/fr/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-image24.png" alt=""></a>
+				</div>
+				<div class="col-xs-4 col-sm-3">
+					<a target="_blank" href="http://maysys.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-maysys.png" alt=""></a>
+				</div>
 			</div>
 		</div>
-			<div class="col-xs-8 text-center row sponsor">
+			<div class="mrgn-tp-lg col-md-push-3 col-md-8 text-center row sponsor">
 				<div class="col-xs-4">
 					<a target="_blank" href="https://www.matelasbonheur.ca/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-matelas.png" alt=""></a>
 				</div>
