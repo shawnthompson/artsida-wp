@@ -333,8 +333,8 @@ footer .fa-4x {
 	font-size: 335%;
 }
 
-.sponsor [class*="col"] {
-  margin-bottom: 30px;
+footer img {
+  margin-bottom: 20px;
 }
 
 .sponsor img {

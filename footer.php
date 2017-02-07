@@ -24,7 +24,7 @@
 			<h3><?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>:</h3>
 				<a target="_blank" href="http://www.encadrex.com/index.php/<?php _e('[:en]en-US/[:][:fr]fr/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
 		</section>
-		<section class="col-xs-9 mrgn-bttm-lg">
+		<section class="col-xs-9">
 			<h3><?php _e('[:en]Audience Choice Award Presenter[:][:fr]Présentateur du Prix du public[:]'); ?>:</h3>
 			<a target="_blank" href="<?php _e('[:en]http://www.claudecormier.com/en/[:][:fr]http://www.claudecormier.com/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-claude-cormier.png" alt="encadrex"></a>
 		</section>
@@ -42,9 +42,13 @@
 				<div class="col-xs-4 col-sm-3">
 					<a target="_blank" href="http://maysys.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-maysys.png" alt=""></a>
 				</div>
+				<div class="col-xs-4 col-sm-3">
+					<a target="_blank" href="http://www.stellaartois.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>_ca/home.html"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-stella.png" alt=""></a>
+				</div>
 			</div>
 		</div>
-			<div class="mrgn-tp-lg col-md-push-3 col-md-8 text-center row sponsor">
+		<div class="row sponsor">
+			<div class="col-md-push-3 col-md-8 text-center">
 				<div class="col-xs-4">
 					<a target="_blank" href="https://www.matelasbonheur.ca/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-matelas.png" alt=""></a>
 				</div>
@@ -63,6 +67,7 @@
 				<div class="col-xs-4">
 					<a target="_blank" href="<?php _e('[:en]http://www.montrealgayvillage.com[:][:fr]http://www.villagegaimontreal.com/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-village.png" alt=""></a>
 				</div>
+			</div>
 		</div>
 	</footer>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

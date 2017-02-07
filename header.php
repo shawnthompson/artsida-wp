@@ -3,6 +3,7 @@
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
+	$cssVersion = 1.5;
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -48,7 +49,7 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!--[if gte IE 9 | !IE ]><!-->
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.css?v=1.4">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.css?v=<?php echo $cssVersion; ?>">
 	<?php if (is_single() | is_search()) {?>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<?php } ?>
