@@ -270,7 +270,7 @@ main .search-everything-highlight-color {
 .direct-sale {
 	background-color: rgba(225,215,58,1);
   padding: 25px;
-  color: #C00;
+  font-weight: 900;
   border: solid #000 5px;
   box-shadow: -3px 3px 3px #999;
 }

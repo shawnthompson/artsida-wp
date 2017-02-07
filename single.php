@@ -45,8 +45,8 @@
 						<section class="direct-sale">
 							<h2><?php _e('[:en]Direct sale[:][:fr]Vente Directe[:]'); ?></h2>
 							<p><?php _e('
-								[:en]This piece is for sale exclusively on the night of our March 14<sup>th</sup> vernissage. Make sure to come early so as not to miss out.[:]
-								[:fr]Cette &oelig;uvre sera mise en vente exclusivement lors du vernissage le 14 mars.  Arrivez tôt afin de ne pas rater votre chance.[:]
+								[:en]This piece is for sale exclusively on the night of our March 3<sup>rd</sup> vernissage. Make sure to come early so as not to miss out.[:]
+								[:fr]Cette &oelig;uvre sera mise en vente exclusivement lors du vernissage le 3 mars. Arrivez tôt afin de ne pas rater votre chance.[:]
 								'); ?></p>
 						</section>
 				<?php endif; ?>
