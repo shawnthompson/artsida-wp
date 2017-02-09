@@ -48,6 +48,9 @@
 				<div class="col-xs-4 col-sm-3">
 					<a target="_blank" href="https://kibouthe.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-kibou.png" alt=""></a>
 				</div>
+				<div class="col-xs-6">
+					<a target="_blank" href="https://www.westjet.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>-ca/index"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-westjet.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 		<div class="row sponsor">
