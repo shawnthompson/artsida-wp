@@ -41,7 +41,7 @@
 
 	<?php else : ?>
 
-		<h2><?php _e('[:en]No posts found[:][:fr]Aucun post trouvé[:]'); ?>.</h2>
+		<h2><?php _e('[:en]No artwork found[:][:fr]Aucune œuvres trouvée[:]'); ?>.</h2>
 
 	<?php endif; ?>
 

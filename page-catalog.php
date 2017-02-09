@@ -28,7 +28,7 @@
 			query_posts( $args );
 		?>
 		<?php if (have_posts() ) { ?>
-		<!-- <div class="pull-right"><?php get_search_form(); ?></div> -->
+		<div class="pull-right"><?php get_search_form(); ?></div>
 		<?php } ?>
 			<div class="hidden-xs col-sm-4 mrgn-bttm-lg">
 			<?php
