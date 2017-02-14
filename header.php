@@ -3,7 +3,7 @@
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
-	$cssVersion = 1.6;
+	$cssVersion = 1.7;
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -24,6 +24,9 @@
 				 echo 'Search for &quot;'.wp_specialchars($s).'&quot; - '; }
 			  elseif (!(is_404()) && (is_single()) || (is_page())) {
 				 wp_title(''); echo ' - '; }
+				elseif (is_page_template('page-table.php')) {
+					_e('[:en]FAIR MARKET VALUE[:][:fr]JUSTE VALEUR MARCHANDE[:]');
+				}
 			  elseif (is_404()) {
 				 _e('[:en]Error 404 - Page Not Found - [:][:fr]Erreur 404 - Page introuvable - [:]'); }
 			  if (is_home()) {
@@ -48,6 +51,9 @@
 	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico"  type="image/x-icon">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<?php if (is_page_template('page-table.php')) { ?>
+		<link rel="stylesheet" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" />
+	<?php } ?>
 	<!--[if gte IE 9 | !IE ]><!-->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.css?v=<?php echo $cssVersion; ?>">
 	<?php if (is_single() | is_search()) {?>

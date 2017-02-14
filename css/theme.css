@@ -261,6 +261,18 @@ main .search-everything-highlight-color {
 	border-bottom: dotted 1px #333;
 }
 
+/* Table  */
+
+.table th {
+	background-color: #666;
+	color:  #fff;
+}
+
+#myTable_wrapper {
+	background-color: #fff;
+	padding:  5px;
+}
+
 /* Single Post */
 
 .single main header {

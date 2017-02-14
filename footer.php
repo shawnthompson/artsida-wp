@@ -76,16 +76,28 @@
 			</div>
 		</div>
 	</footer>
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<?php if (is_home()) {?>
+<?php if (is_home()) { ?>
 	<script src="<?php bloginfo('template_url'); ?>/js/twitter.js"></script>
 	<script>
 		$('.reload').click(function() {
 		    location.reload();
 		});
 	</script>
-<?php }?>
+<?php } ?>
+<?php if (is_page_template('page-table.php')) { ?>
+	<script src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		    $('#myTable').DataTable({
+		    	"pageLength": 25,
+	            "scrollY": true,
+		        "scrollX": true
+		    });
+		});
+	</script>
+<?php } ?>
 <?php if (is_single() | is_search()) {?>
 	<script src="<?php bloginfo('template_url'); ?>/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<script type="text/javascript">
