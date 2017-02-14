@@ -37,7 +37,7 @@
 					<a target="_blank" href="http://www.eskawater.com/?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-eska.png" alt=""></a>
 				</div>
 				<div class="col-xs-4 col-sm-3">
-					<a target="_blank" href="<?php _e('[:en]http://image-24.com/[:][:fr]http://image-24.com/fr/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-image24.png" alt=""></a>
+					<a target="_blank" href="<?php _e('[:en]http://i24image.com/[:][:fr]http://i24image.com/fr/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-image24-new.png" alt=""></a>
 				</div>
 				<div class="col-xs-4 col-sm-3">
 					<a target="_blank" href="http://maysys.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-maysys.png" alt=""></a>
