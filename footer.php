@@ -73,6 +73,9 @@
 				<div class="col-xs-4">
 					<a target="_blank" href="<?php _e('[:en]http://www.montrealgayvillage.com[:][:fr]http://www.villagegaimontreal.com/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-village.png" alt=""></a>
 				</div>
+				<div class="col-xs-4">
+					<a target="_blank" href="<?php _e('[:en]http://mohawkmontreal.ca/en/[:][:fr]http://mohawkmontreal.ca/index.php[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-mohawk.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</footer>
