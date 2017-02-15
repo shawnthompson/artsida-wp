@@ -62,6 +62,9 @@
 	<?php if (is_page_template('page-catalog.php' || 'page-catalog-draft.php')) {?>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/catalog.min.css">
 	<?php } ?>
+	<?php if (is_page_template('page-sponsor.php')) {?>
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/sponsor.css">
+	<?php } ?>
 	<!--<![endif]-->
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<!--[if lt IE 9]>

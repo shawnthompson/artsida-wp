@@ -55,25 +55,25 @@
 		</div>
 		<div class="row sponsor">
 			<div class="col-md-push-3 col-md-8 text-center">
-				<div class="col-xs-4">
+				<div class="col-xs-6 col-sm-4">
 					<a target="_blank" href="https://www.matelasbonheur.ca/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-matelas.png" alt=""></a>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-6 col-sm-4">
 					<a target="_blank" href="http://pamco.ca/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-pamco.jpg" alt=""></a>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-6 col-sm-4">
 					<a target="_blank" href="<?php _e('[:en]http://codespark.ca/en/[:][:fr]http://codespark.ca/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-CodeSpark.png" alt=""></a>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-6 col-sm-4">
 					<a target="_blank" href="<?php _e('[:en]http://lmkca.com/en/[:][:fr]http://lmkca.com[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-lacharite.png" alt=""></a>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-6 col-sm-4">
 					<a target="_blank" href="<?php _e('[:en]http://theratech.com[:][:fr]http://theratech.com/fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-thera.png" alt=""></a>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-6 col-sm-4">
 					<a target="_blank" href="<?php _e('[:en]http://www.montrealgayvillage.com[:][:fr]http://www.villagegaimontreal.com/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-village.png" alt=""></a>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-6 col-sm-4">
 					<a target="_blank" href="<?php _e('[:en]http://mohawkmontreal.ca/en/[:][:fr]http://mohawkmontreal.ca/index.php[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-mohawk.png" alt=""></a>
 				</div>
 			</div>

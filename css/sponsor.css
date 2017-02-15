@@ -1,7 +1,9 @@
-main .sponsor-list li {
-	margin-bottom: 25px;
+main .sponsor-list div[class^="col-"] {
+    margin-bottom:  30px;
 }
 
+main .sponsors-list .sponsor-small img {
+}
 
 /* Media Queries*/
 /* Small devices (tablets, 768px and up) */
