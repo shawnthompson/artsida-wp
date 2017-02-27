@@ -79,6 +79,12 @@
 				<div class="col-xs-6 col-sm-4">
 					<a target="_blank" href="<?php _e('[:en]https://nathonkong.com[:][:fr]https://nathonkong.com/?lang=fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-nathon-kong.png" alt=""></a>
 				</div>
+				<div class="col-xs-6 col-sm-4">
+					<a target="_blank" href="https://www.facebook.com/lavielevee/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-vie-levee.png" alt=""></a>
+				</div>
+				<div class="col-xs-6 col-sm-4">
+					<a target="_blank" href="http://www.subway.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>-CA"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-subway.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</footer>
