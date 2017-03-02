@@ -85,6 +85,12 @@
 				<div class="col-xs-6 col-sm-4">
 					<a target="_blank" href="http://www.subway.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>-CA"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-subway.png" alt=""></a>
 				</div>
+				<div class="col-xs-6 col-sm-4">
+					<a target="_blank" href="http://www.celebrationsgroup.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-celebrations.png" alt=""></a>
+				</div>
+				<div class="col-xs-6 col-sm-4">
+					<a target="_blank" href="<?php _e('[:en]http://cielvariable.ca/en/[:][:fr]http://cielvariable.ca/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-ciel-variable.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</footer>
