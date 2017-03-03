@@ -3,7 +3,7 @@
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
-	$cssVersion = 1.7;
+	$cssVersion = 1.8;
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>

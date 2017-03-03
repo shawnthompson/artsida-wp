@@ -685,10 +685,6 @@ footer img {
 		font-size: 1.5em;
 		width: 50%;
 	}
-
-  .sponsor img {
-    width: 50%;
-  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -718,12 +714,8 @@ footer img {
 	main .tag {
 		width: 70%;
 	}
-
-  .sponsor img {
-    width: 40%;
-  }
-
 }
+
 /* Extra large devices (large desktops, 1500px and up) */
 @media screen and (min-width: 1500px) {
 	header .col-xs-push-2 img {

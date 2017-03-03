@@ -34,62 +34,68 @@
 					<a target="_blank" href="http://www.telus.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/qc/index.jsp"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-telus.png" alt=""></a>
 				</div>
 				<div class="col-xs-4 col-sm-3">
-					<a target="_blank" href="http://www.eskawater.com/?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-eska.png" alt=""></a>
-				</div>
-				<div class="col-xs-4 col-sm-3">
-					<a target="_blank" href="<?php _e('[:en]http://i24image.com/[:][:fr]http://i24image.com/fr/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-image24-new.png" alt=""></a>
-				</div>
-				<div class="col-xs-4 col-sm-3">
-					<a target="_blank" href="http://maysys.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-maysys.png" alt=""></a>
+					<a target="_blank" href="<?php _e('[:en]http://www.chapoutier.com/index-gb.htm[:][:fr]http://www.chapoutier.com[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-chapoutier.png" alt=""></a>
 				</div>
 				<div class="col-xs-4 col-sm-3">
 					<a target="_blank" href="http://www.stellaartois.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>_ca/home.html"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-stella.png" alt=""></a>
 				</div>
 				<div class="col-xs-4 col-sm-3">
+					<a target="_blank" href="http://www.eskawater.com/?lang=<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-eska.png" alt=""></a>
+				</div>
+				<div class="col-md-push-1 col-xs-4 col-sm-3">
+					<a target="_blank" href="<?php _e('[:en]http://i24image.com/[:][:fr]http://i24image.com/fr/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-image24-new.png" alt=""></a>
+				</div>
+				<div class="col-md-push-1 col-xs-4 col-sm-3">
+					<a target="_blank" href="http://maysys.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-maysys.png" alt=""></a>
+				</div>
+				<div class="col-md-push-1 col-xs-4 col-sm-3">
 					<a target="_blank" href="https://kibouthe.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-kibou.png" alt=""></a>
 				</div>
-				<div class="col-xs-6">
+				<div class="col-sm-push-3 col-xs-6">
 					<a target="_blank" href="https://www.westjet.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>-ca/index"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-westjet.png" alt=""></a>
 				</div>
 			</div>
 		</div>
 		<div class="row sponsor">
 			<div class="col-md-push-3 col-md-8 text-center">
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="https://www.matelasbonheur.ca/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-matelas.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="http://pamco.ca/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-pamco.jpg" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="<?php _e('[:en]http://codespark.ca/en/[:][:fr]http://codespark.ca/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-CodeSpark.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="<?php _e('[:en]http://lmkca.com/en/[:][:fr]http://lmkca.com[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-lacharite.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="<?php _e('[:en]http://theratech.com[:][:fr]http://theratech.com/fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-thera.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="<?php _e('[:en]http://www.montrealgayvillage.com[:][:fr]http://www.villagegaimontreal.com/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-village.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="<?php _e('[:en]http://mohawkmontreal.ca/en/[:][:fr]http://mohawkmontreal.ca/index.php[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-mohawk.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="<?php _e('[:en]https://nathonkong.com[:][:fr]https://nathonkong.com/?lang=fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-nathon-kong.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="https://www.facebook.com/lavielevee/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-vie-levee.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="http://www.subway.com/<?php _e('[:en]en[:][:fr]fr[:]'); ?>-CA"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-subway.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="http://www.celebrationsgroup.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-celebrations.png" alt=""></a>
 				</div>
-				<div class="col-xs-6 col-sm-4">
+				<div class="col-xs-6 col-sm-3">
 					<a target="_blank" href="<?php _e('[:en]http://cielvariable.ca/en/[:][:fr]http://cielvariable.ca/[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-ciel-variable.png" alt=""></a>
+				</div>
+				<div class="col-xs-6 col-sm-3">
+					<a target="_blank" href="https://www.facebook.com/lgbtinthecity/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-lgbt.png" alt=""></a>
 				</div>
 			</div>
 		</div>
