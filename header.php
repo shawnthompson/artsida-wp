@@ -117,7 +117,7 @@
 				<p class="date"><?php _e('[:en]Sunday March 12<sup>th</sup>[:][:fr]Dimanche le 12 mars[:]'); ?> 2017</p>
 				<p class="time"><?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
 			</div>
-			<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 7</strong></span></p>
+			<p class="text-center time-left"><span class="text-nowrap"><strong><?php echo "0";?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 7</strong></span></p>
 		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">
