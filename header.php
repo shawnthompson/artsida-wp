@@ -42,9 +42,9 @@
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:title" content="Artsida 7 - March 12th, 2017" />
+	<meta property="og:title" content="Artsida 8 - March 11th, 2018" />
 	<meta property="og:url" content="http://artsida.org" />
-	<meta property="og:site_name" content="Artsida 7"/>
+	<meta property="og:site_name" content="Artsida 8"/>
 	<meta property="og:type" content="Website"/>
 	<meta property="og:description" content="Artsida is an art auction fundraiser for AIDS Community Care Montreal, a volunteer-based community organization working to enhance the quality of life of people living with HIV/AIDS, to prevent HIV transmission, and to promote community awareness and action."/>
 	<?php endif; ?>
@@ -117,7 +117,7 @@
 				<p class="date"><?php _e('[:en]Sunday March 12<sup>th</sup>[:][:fr]Dimanche le 12 mars[:]'); ?> 2017</p>
 				<p class="time"><?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
 			</div>
-			<p class="text-center time-left"><span class="text-nowrap"><strong><?php echo "0";?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 7</strong></span></p>
+			<p class="text-center time-left"><span class="text-nowrap"><strong><?php echo "0";?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 8</strong></span></p>
 		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">
