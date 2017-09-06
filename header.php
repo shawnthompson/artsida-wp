@@ -1,9 +1,9 @@
 <?php
-	$date = strtotime("March 12, 2017 18:00");
+	$date = strtotime("March 11, 2018 18:00");
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
-	$cssVersion = 1.8;
+	$cssVersion = 1.9;
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -110,11 +110,10 @@
 				</section>
 			</div>
 			<div class="venue">
-				<p class="mrgn-bttm-lg"><a target="_blank" href="<?php _e('[:en]http://www.macm.org/en/[:][:fr]http://www.macm.org/[:]'); ?>"><span lang="fr" class="sr-only">Musée d'art contemporain de Montréal</span><img src="<?php bloginfo('template_url'); ?>/img/logo-mac.png" alt=""></a></p>
+				<p class="mrgn-bttm-lg"><a target="_blank" href="<?php _e('[:en]https://placedesarts.com/en[:][:fr]https://placedesarts.com/fr[:]'); ?>"><span lang="fr" class="sr-only">Place des arts</span><img src="<?php bloginfo('template_url'); ?>/img/placedesarts.png" alt=""></a></p>
 			</div>
 			<div class="event">
-				<p class="address">185 Ste. Catherine <?php _e('[:en]West[:][:fr]ouest[:]'); ?></p>
-				<p class="date"><?php _e('[:en]Sunday March 12<sup>th</sup>[:][:fr]Dimanche le 12 mars[:]'); ?> 2017</p>
+				<p class="date"><?php _e('[:en]Sunday March 11<sup>th</sup>[:][:fr]Dimanche le 11 mars[:]'); ?> 2018</p>
 				<p class="time"><?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
 			</div>
 			<p class="text-center time-left"><span class="text-nowrap"><strong><?php echo "0";?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 8</strong></span></p>
