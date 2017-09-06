@@ -1,5 +1,5 @@
 <?php
-	$date = strtotime("March 11, 2018 18:00");
+	$date = strtotime("March 11, 2018 22:00");
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
@@ -116,7 +116,7 @@
 				<p class="date"><?php _e('[:en]Sunday March 11<sup>th</sup>[:][:fr]Dimanche le 11 mars[:]'); ?> 2018</p>
 				<p class="time"><?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
 			</div>
-			<p class="text-center time-left"><span class="text-nowrap"><strong><?php echo "0";?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 8</strong></span></p>
+			<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 8</strong></span></p>
 		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">
