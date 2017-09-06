@@ -83,15 +83,19 @@ header .event p {
 }
 
 header .venue img {
-  height: 75px;
-  margin-top: 15px;
+  height: 125px;
+  margin-top: 5px;
+  background-color: #000;
+  padding:  10px;
+}
+
+header .venue img:hover {
+  background-color: #666;
 }
 
 header .time-left {
-	padding-top: 10px;
 	font-size: 90%;
 	margin-bottom: 0;
-	padding-bottom: 5px;
 }
 
 header .time-left strong {
