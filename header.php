@@ -110,7 +110,7 @@
 				</section>
 			</div>
 			<div class="venue">
-				<p><a target="_blank" href="<?php _e('[:en]https://placedesarts.com/en[:][:fr]https://placedesarts.com/fr[:]'); ?>"><span lang="fr" class="sr-only">Place des arts</span><img src="<?php bloginfo('template_url'); ?>/img/placedesarts.png" alt=""></a></p>
+				<p><a target="_blank" href="<?php _e('[:en]https://placedesarts.com/en/produce-event/salon-urbain[:][:fr]https://placedesarts.com/fr/produire-evenement/salon-urbain[:]'); ?>"><span lang="fr" class="sr-only">Place des arts</span><img src="<?php bloginfo('template_url'); ?>/img/placedesarts.png" alt=""></a></p>
 			</div>
 			<div class="event">
 				<p class="date"><?php _e('[:en]Sunday March 11<sup>th</sup>[:][:fr]Dimanche le 11 mars[:]'); ?> 2018</p>
