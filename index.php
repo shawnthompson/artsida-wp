@@ -6,7 +6,7 @@
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 			<?php
-			$cutoff_date = '2016-12-31';
+			$cutoff_date = '2018-12-31';
 			$args = array(
 				'orderby'        => 'rand',
 				'posts_per_page' => '3',
@@ -33,6 +33,9 @@
 			<li data-target="#carousel" data-slide-to="0" class="active"></li>
 			<li data-target="#carousel" data-slide-to="1"></li>
 			<li data-target="#carousel" data-slide-to="2"></li>
+			<li data-target="#carousel" data-slide-to="3"></li>
+			<li data-target="#carousel" data-slide-to="4"></li>
+			<li data-target="#carousel" data-slide-to="5"></li>
 			<?php endif; ?>
 			</ol>
 			<div class="carousel-inner" role="listbox">
@@ -54,13 +57,22 @@
 
             <?php else : ?>
 				<div class="item active">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel1-new.png" alt="" />
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/artsida8/carousel1.jpg" alt="" />
 				</div>
 				<div class="item">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel2-new.png" alt="" />
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/artsida8/carousel2.jpg" alt="" />
 				</div>
 				<div class="item">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/carousel3-new.png" alt="" />
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/artsida8/carousel3.jpg" alt="" />
+				</div>
+				<div class="item">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/artsida8/carousel4.jpg" alt="" />
+				</div>
+				<div class="item">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/artsida8/carousel5.jpg" alt="" />
+				</div>
+				<div class="item">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/artsida8/carousel6.jpg" alt="" />
 				</div>
 
 			<?php endif; ?>
