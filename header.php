@@ -111,7 +111,7 @@
 			</div>
 			<div class="venue">
 				<p><a target="_blank" href="<?php _e('[:en]https://placedesarts.com/en/produce-event/salon-urbain[:][:fr]https://placedesarts.com/fr/produire-evenement/salon-urbain[:]'); ?>"><span lang="fr" class="sr-only">Place des arts</span><img src="<?php bloginfo('template_url'); ?>/img/placedesarts.png" alt=""></a></p>
-				<p>Salon Urbain</p>
+				<p>Salon Urbain, Place des Arts</p>
 				<p>1600 Rue Saint-Urbain</p>
 			</div>
 			<div class="event">
