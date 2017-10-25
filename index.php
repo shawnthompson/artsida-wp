@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-		<h1 class="sr-only">ArtSida 6, September 30, 2015</h1>
+		<h1 class="sr-only">ArtSida 8, Sunday March 11th 2018</h1>
 		<div id="carousel" class="carousel slide" data-ride="carousel">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
@@ -109,7 +109,7 @@
 
 			<div class="hidden-xs col-sm-2 red responsive"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pic3.jpg" class="bottom-left photov" alt=""></div>
 			<div class="hidden-xs col-sm-3 purple"></div>
-			<div class="col-sm-7 purple responsive twitter-wrapper"><a class="twitter-timeline" data-height="378" data-width="500" href="https://twitter.com/ARTSIDA7">Tweets by ARTSIDA7</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+			<div class="col-sm-7 purple responsive twitter-wrapper"><a class="twitter-timeline" data-height="378" data-width="500" href="https://twitter.com/ARTSIDA8">Tweets by ARTSIDA8</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 <div class="col-sm-12 yellow-grad responsive"></div>
 </div>

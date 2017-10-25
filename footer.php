@@ -12,7 +12,7 @@
 					<a target="_blank" href="https://www.facebook.com/ARTSIDA/"><i class="fa fa-facebook-square fa-4x"></i><span class="sr-only">Facebook</span></a>
 				</li>
 				<li>
-					<a target="_blank" href="https://twitter.com/ARTSIDA7"><i class="fa fa-twitter-square fa-4x"></i><span class="sr-only">Twitter</span></a>
+					<a target="_blank" href="https://twitter.com/ARTSIDA8"><i class="fa fa-twitter-square fa-4x"></i><span class="sr-only">Twitter</span></a>
 				</li>
 			</ul>
 		</section>
