@@ -3,7 +3,7 @@
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
-	$cssVersion = 1.9;
+	$cssVersion = "1.9.1";
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -79,14 +79,15 @@
 	<header class="relative">
 		<div class="col-sm-8 mrgn-tp-md">
 			<div class="row">
-				<div class="col-xs-2 mrgn-tp-md">
-					<p class="mrgn-tp-lg"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/logo.gif" alt="Artsida logo" /></a></p>
+				<div class="col-xs-2 mrgn-tp-md accm-logo">
+				<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
 				</div>
 				<div class="col-xs-8">
 					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><span class="sr-only">Artsida 8</span><img src="<?php bloginfo('template_url'); ?>/img/artsida8.jpg" class="center-block img-responsive" alt="" /></a></h1>
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
-					<div class="col-xs-8 col-xs-push-2 accm-logo">
-						<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
+					<div class="event">
+						<p class="date"><?php _e('[:en]Sunday March 11<sup>th</sup>[:][:fr]Dimanche le 11 mars[:]'); ?> 2018</p>
+						<p class="time"><?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
 					</div>
 				</div>
 				<div class="col-xs-2">
@@ -113,10 +114,6 @@
 				<p><a target="_blank" href="<?php _e('[:en]https://placedesarts.com/en/produce-event/salon-urbain[:][:fr]https://placedesarts.com/fr/produire-evenement/salon-urbain[:]'); ?>"><span lang="fr" class="sr-only">Place des arts</span><img src="<?php bloginfo('template_url'); ?>/img/placedesarts.png" alt=""></a></p>
 				<p>Salon Urbain, Place des Arts</p>
 				<p>1600 Rue Saint-Urbain</p>
-			</div>
-			<div class="event">
-				<p class="date"><?php _e('[:en]Sunday March 11<sup>th</sup>[:][:fr]Dimanche le 11 mars[:]'); ?> 2018</p>
-				<p class="time"><?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
 			</div>
 			<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 8</strong></span></p>
 		</div>

@@ -77,9 +77,14 @@ header .lang {
 	text-transform: uppercase;
 }
 
+header .event {
+	padding-top: 15px;
+}
 header .event p {
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-size: 1.4em;
 }
 
 header .venue {
@@ -117,8 +122,8 @@ header .time-left strong.large {
 }
 
 header .accm-logo img {
-	max-height: 85px;
-	margin:  35px auto;
+	max-height: 125px;
+	margin:  25px auto;
 }
 
 /* Navigation */
