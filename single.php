@@ -30,6 +30,7 @@
 					$year = get_post_meta($post -> ID, 'year', true );
 					$medium = get_post_meta($post -> ID, 'medium', true );
 					$estimated_price = get_post_meta($post -> ID, 'estimated_price', true );
+					$direct_sale_price = get_post_meta($post -> ID, 'direct_sale_price', true );
 				?>
 				<h2><?php _e('[:en]Details[:][:fr]Détails[:]'); ?></h2>
 				<dl class="dl-horizontal">
@@ -41,8 +42,14 @@
 				  <dd><?php if ( empty ($year)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $year;?><?php endif; ?></dd>
 				  <dt><?php _e('[:en]Medium[:][:fr]Médium[:]'); ?>:</dt>
 				  <dd><?php if ( empty ($medium)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $medium;?><?php endif; ?></dd>
+				<?php if( get_field('sale') == 'no' ): ?>
 				  <dt><?php _e('[:en]Estimated Price[:][:fr]Prix ​​Estimé[:]'); ?>:</dt>
-				  <dd><?php if ( empty ($estimated_price)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : _e('[:en]$' . $estimated_price . ' [:][:fr]'. $estimated_price . ' $[:]');?><?php endif; ?></dd>
+				  <dd><?php if ( empty ($estimated_price)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : _e('[:en]$' . number_format($estimated_price, 2, '.', ',') . ' [:][:fr]'. number_format($estimated_price, 2, '.', ' ') . ' $[:]');?><?php endif; ?></dd>
+				<?php endif; ?>
+				<?php if( get_field('sale') == 'yes' ): ?>
+					<dt><?php _e('[:en]Direct Sale Price[:][:fr]Prix Vente Directe[:]'); ?>:</dt>
+					<dd><?php if ( empty ($direct_sale_price)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : _e('[:en]$' . number_format($direct_sale_price, 2, '.', ',') . ' [:][:fr]'. number_format($direct_sale_price, 2, '.', ' ') . ' $[:]');?><?php endif; ?></dd>
+				<?php endif; ?>
 				</dl>
 					<?php if( get_field('sale') == 'yes' ): ?>
 						<section class="direct-sale">
