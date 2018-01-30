@@ -29,6 +29,7 @@
 					$height = get_post_meta($post -> ID, 'height', true );
 					$year = get_post_meta($post -> ID, 'year', true );
 					$medium = get_post_meta($post -> ID, 'medium', true );
+					$estimated_price = get_post_meta($post -> ID, 'estimated_price', true );
 				?>
 				<h2><?php _e('[:en]Details[:][:fr]Détails[:]'); ?></h2>
 				<dl class="dl-horizontal">
@@ -40,6 +41,8 @@
 				  <dd><?php if ( empty ($year)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $year;?><?php endif; ?></dd>
 				  <dt><?php _e('[:en]Medium[:][:fr]Médium[:]'); ?>:</dt>
 				  <dd><?php if ( empty ($medium)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $medium;?><?php endif; ?></dd>
+				  <dt><?php _e('[:en]Estimated Price[:][:fr]Prix ​​Estimé[:]'); ?>:</dt>
+				  <dd><?php if ( empty ($estimated_price)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : _e('[:en]$' . $estimated_price . ' [:][:fr]'. $estimated_price . ' $[:]');?><?php endif; ?></dd>
 				</dl>
 					<?php if( get_field('sale') == 'yes' ): ?>
 						<section class="direct-sale">
