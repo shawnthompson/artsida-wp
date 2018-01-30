@@ -59,7 +59,6 @@
 	                if ($counter==3) { echo '<div class="visible-md visible-lg clearfix"></div>';} ?>
 		 				<?php endwhile; ?>
 						<div class="clearfix"></div>
-						<p class="mrgn-tp-lg text-center well well-sm"><a href="/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/artwork/table/"><?php _e('[:en]Click here to consult a page with the estimated market value of all the pieces in the Artsida 7 collection.[:][:fr]Cliquez ici pour consulter la page comprenant la juste valeur au marché pour toutes les pièces de la collection Artsida 7.[:]'); ?></a></p>
 						<?php bittersweet_pagination() ?>
 	            <?php else : ?>
 	            	<p><?php _e('[:en]Selection process in the Fall. <a href="mailto:artsida@accmontreal.org">Contact us</a> for more details.[:][:fr]Processus de sélection en automne. <a href="mailto:artsida@accmontreal.org">Contactez-nous</a> pour plus de détails.[:]'); ?></p>
