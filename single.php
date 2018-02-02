@@ -37,18 +37,24 @@
 				  <dt>Dimensions:</dt>
 				  <dd><?php if ( empty( $width || $height) ) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?>
 				<?php else : echo $width . '" X ' . $height . '"';?>
-				 <?php endif; ?></dd>
+				<?php endif; ?></dd>
 				  <dt><?php _e('[:en]Year produced[:][:fr]Année produit[:]'); ?>:</dt>
 				  <dd><?php if ( empty ($year)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $year;?><?php endif; ?></dd>
 				  <dt><?php _e('[:en]Medium[:][:fr]Médium[:]'); ?>:</dt>
 				  <dd><?php if ( empty ($medium)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : echo $medium;?><?php endif; ?></dd>
 				<?php if( get_field('sale') == 'no' ): ?>
-				  <dt><?php _e('[:en]Estimated Price[:][:fr]Prix ​​Estimé[:]'); ?>:</dt>
-				  <dd><?php if ( empty ($estimated_price)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : _e('[:en]$' . number_format($estimated_price, 2, '.', ',') . ' [:][:fr]'. number_format($estimated_price, 2, '.', ' ') . ' $[:]');?><?php endif; ?></dd>
+					<?php if ( empty ($estimated_price)) : ?>
+					<?php else : ?>
+						<dt><?php _e('[:en]Estimated Price[:][:fr]Prix ​​Estimé[:]'); ?>:</dt>
+						<dd><?php _e('[:en]$' . number_format($estimated_price, 2, '.', ',') . ' [:][:fr]'. number_format($estimated_price, 2, '.', ' ') . ' $[:]');?></dd>
+					<?php endif; ?>
 				<?php endif; ?>
 				<?php if( get_field('sale') == 'yes' ): ?>
-					<dt><?php _e('[:en]Direct Sale Price[:][:fr]Prix Vente Directe[:]'); ?>:</dt>
-					<dd><?php if ( empty ($direct_sale_price)) : ?><?php _e('[:en]Information unavailable[:][:fr]Information non disponible[:]'); ?><?php else : _e('[:en]$' . number_format($direct_sale_price, 2, '.', ',') . ' [:][:fr]'. number_format($direct_sale_price, 2, '.', ' ') . ' $[:]');?><?php endif; ?></dd>
+					<?php if ( empty ($direct_sale_price)) : ?>
+					<?php else : ?>
+						<dt><?php _e('[:en]Direct Sale Price[:][:fr]Prix Vente Directe[:]'); ?>:</dt>
+						<dd><?php _e('[:en]$' . number_format($direct_sale_price, 2, '.', ',') . ' [:][:fr]'. number_format($direct_sale_price, 2, '.', ' ') . ' $[:]');?></dd>
+					<?php endif; ?>
 				<?php endif; ?>
 				</dl>
 					<?php if( get_field('sale') == 'yes' ): ?>
