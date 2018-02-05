@@ -45,7 +45,7 @@
 				<?php if( get_field('sale') == 'no' ): ?>
 					<?php if ( empty ($estimated_price)) : ?>
 					<?php else : ?>
-						<dt><?php _e('[:en]Estimated Price[:][:fr]Prix ​​Estimé[:]'); ?>:</dt>
+						<dt><?php _e('[:en]Estimated Market Value[:][:fr]Valeur Marchande Estimée[:]'); ?>:</dt>
 						<dd><?php _e('[:en]$' . number_format($estimated_price, 2, '.', ',') . ' [:][:fr]'. number_format($estimated_price, 2, '.', ' ') . ' $[:]');?></dd>
 					<?php endif; ?>
 				<?php endif; ?>
