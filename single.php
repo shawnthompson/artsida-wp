@@ -66,6 +66,7 @@
 								'); ?></p>
 						</section>
 				<?php endif; ?>
+				<p class="text-center"><a href="/catalog/" class="btn btn-primary">Back to Catalog</a></p>
 			</div>
 		</div>
 <?php wp_reset_query(); get_footer(); ?>
