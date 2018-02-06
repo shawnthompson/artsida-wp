@@ -66,25 +66,6 @@
 								'); ?></p>
 						</section>
 				<?php endif; ?>
-				<?php
-				$firstname = get_post_meta($post -> ID, 'firstname', true );
-				$args = array(
-					'cat' => 2,
-					'orderby'  => 'meta_value',
-					'meta_key' => 'firstname',
-					'order' => 'ASC'
-				);
-				query_posts( $args );
-				?>
-			<?php if (have_posts() ) : ?>
-				<nav>
-				  <ul class="pager">
-				    <li class="previous"><?php previous_post_link_plus( array('order_by' => 'custom',  'meta_key' => 'firstname', 'loop' => true, 'in_same_cat' => 'true', 'link' => '<i class="fa fa-arrow-circle-o-left fa-2x"></i>', 'format' => '%link') );?></li>
-				    <li class="next"><?php next_post_link_plus( array('order_by' => 'custom',  'meta_key' => 'firstname', 'loop' => true, 'in_same_cat' => 'true', 'link' => '<i class="fa fa-arrow-circle-o-right fa-2x"></i>', 'format' => '%link') );?></li>
-				  </ul>
-				</nav>
-			<?php endif; ?>
-			<?php wp_reset_query(); ?>
 			</div>
 		</div>
 <?php wp_reset_query(); get_footer(); ?>
