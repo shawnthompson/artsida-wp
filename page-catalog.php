@@ -14,7 +14,7 @@
 		</div>
 		<div class="col-sm-12 text">
 		<?php
-			$cutoff_date = '2019-09-20';
+			$cutoff_date = '2017-09-20';
 			$args = array(
 				'cat' => 2,
 				'orderby'  => 'meta_value',
