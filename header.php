@@ -3,7 +3,7 @@
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
-	$cssVersion = "1.9.1";
+	$cssVersion = "1.9.2";
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -63,7 +63,7 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/catalog.min.css">
 	<?php } ?>
 	<?php if (is_page_template('page-sponsor.php')) {?>
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/sponsor.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/sponsor.css?v=<?php echo $cssVersion; ?>">
 	<?php } ?>
 	<!--<![endif]-->
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">

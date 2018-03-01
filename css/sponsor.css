@@ -1,13 +1,49 @@
-main .sponsor-list div[class^="col-"] {
-    margin-bottom:  30px;
+.sponsorsPartners h2 {
+    margin-top: 25px;
+}
+.sponsor-list .row {
+    margin-top: 30px;
 }
 
-main .sponsors-list .sponsor-small img {
+main .sponsors-list  {
+}
+
+.page-template-page-sponsor main .text,
+.yellow-grad {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1d73a+0,ffffff+56 */
+
+background: #e1d73a;
+/* Old browsers */
+
+background: -moz-linear-gradient(top, #e1d73a 0%, #ffffff 56%);
+/* FF3.6-15 */
+
+background: -webkit-linear-gradient(top, #e1d73a 0%, #ffffff 56%);
+/* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom, #e1d73a 0%, #ffffff 56%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1d73a', endColorstr='#ffffff', GradientType=0);
+/* IE6-9 */
+
+}
+
+.sponsorsPartners a img:hover {
+    opacity: .6;
+    size: 80%;
+    border-bottom: dotted 2px #666;
+    padding-bottom: 18px;
+}
+
+.sponsorsPartners img {
+    padding: 20px;
 }
 
 /* Media Queries*/
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
 }
 
 /* Large devices (large desktops, 1200px and up) */

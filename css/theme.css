@@ -238,7 +238,6 @@ main .tag {
 main .text {
 	padding: 15px;
 	font-size: 165%;
-	text-align: justify;
 }
 
 main .text, .yellow-grad {
@@ -364,10 +363,6 @@ footer .fa-4x {
 
 footer img {
   margin-bottom: 20px;
-}
-
-.sponsor img {
-  width: 70%;
 }
 
 /* Utilities */
@@ -608,7 +603,7 @@ footer img {
 		top: 0;
 		left: 0;
 	}
-	main .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+	main .carousel-inner > .item > a > img, .carousel-inner > .item > img, .thumbnail a > img, .thumbnail > img {
 		max-height: 16em;
 	}
 
@@ -636,10 +631,6 @@ footer img {
 	footer .fa-4x {
 		 font-size: 3.3em;
 	}
-
-  .sponsor img {
-    width: 60%;
-  }
 
 	/* Single page */
 	.single main h1 {

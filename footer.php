@@ -16,14 +16,20 @@
 				</li>
 			</ul>
 		</section>
-		<section class="col-xs-3">
+		<div class="col-md-6">
+		<section class="col-xs-6">
 			<h3><?php _e('[:en]Presented by[:][:fr]Présenté par[:]'); ?>:</h3>
-				<a target="_blank" href="<?php _e('[:en]https://www.td.com/about-tdbfg/our-business/index.jsp[:][:fr]https://www.td.com/francais/a-propos-du-gfbtd/nos-entreprises/index.jsp[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD"></a>
+				<a target="_blank" href="<?php _e('[:en]https://www.td.com/ca/en/personal-banking/[:][:fr]https://www.td.com/francais/a-propos-du-gfbtd/nos-entreprises/index.jsp[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD"></a>
 		</section>
-		<section class="col-xs-3">
+		<section class="col-xs-12 col-sm-6">
 			<h3><?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>:</h3>
 				<a target="_blank" href="http://www.encadrex.com/index.php/<?php _e('[:en]en-US/[:][:fr]fr/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
 		</section>
+		<section class="col-xs-12 col-sm-6">
+			<h3><?php _e('[:en]Audience Choice Award Presenter[:][:fr]Présentateur du Prix du public[:]')?>:</h3>
+				<a target="_blank" href="<?php _e('[:en]http://www.claudecormier.com/en/[:][:fr]http://www.claudecormier.com[:]')?>"><img class="img-responsive mrgn-tp-sm" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/claude-cormier.png" alt=""><span class="sr-only"><?php _e('[:en]Claude Cormier + <span lang="fr">associés</span> inc. - Landscape Architecture and Urban Design[:][:fr]Claude Cormier + associés inc. - <span lang="en">Landscape Architecture and Urban Design</span>[:]')?></span></a>
+		</section>
+		</div>
 	</footer>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
