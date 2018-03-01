@@ -6,7 +6,7 @@
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 			<?php
-			$cutoff_date = '2018-12-31';
+			$cutoff_date = '2017-12-31';
 			$args = array(
 				'orderby'        => 'rand',
 				'posts_per_page' => '3',
