@@ -14,7 +14,6 @@
 		</div>
 
 <div class="text">
-
 	<div class="sponsor-list">
 		<p class="text-center"></p>
 		<?php _e('[:en]We rely greatly on corporate sponsors to help us make Artsida a success. If you or your company are interested in supporting our event in some way, contact <a href="mailto:artsida@accmontreal.org">artsida@accmontreal.org</a>[:]
@@ -40,9 +39,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
 		<div class="row mrgn-bttm-lg sponsorsPartners">
 			<section class="col-md-12">
 			<h2 class="text-center"><?php _e('[:en]Partner Sponsors[:][:fr]Commanditaires partenaires[:]')?></h2>
@@ -108,7 +104,7 @@
 			</div>
             <div class="row">
 				<div class="col-md-4">
-					<a href="<?php _e('[:en]https://muhc.ca/reproductivecentre/dashboard[:][:fr]https://cusm.ca/reproductivecentre/dashboard[:]')?>" target="_blank" rel="noopener" data-external="true">
+					<a href="<?php _e('[:en]http://mcgillivf.com/home.html[:][:fr]http://mcgillivf.com/home.html?&Language=FR_[:]')?>" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/reproductive-centre.png" alt="" />
                         <span class="sr-only"><?php _e('[:en]MUHC Reproductive Centre[:][:fr]Centre de la reproduction du CUSM[:]')?></span>
                     </a>
@@ -126,6 +122,34 @@
                     </a>
                 </div>
             </div>
+			 <!-- ROW OF 4 BEGINS -->
+			<div class="row">
+				<div class="col-md-3 col-xs-6">
+					<a href="<?php _e('[:en]https://beaus.ca/[:][:fr]https://beaus.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/beaus.png" alt="" />
+						<span class="sr-only">Beau's</span>
+					</a>
+				</div>
+                <div class="col-md-3 col-xs-6">
+                    <a href="<?php _e('[:en]https://www.deserres.ca/en/[:][:fr]https://www.deserres.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+                        <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/deserres.png" alt="" />
+                        <span class="sr-only">DeSerres</span>
+                    </a>
+                </div>
+				<div class="col-md-3 col-xs-6">
+					<a href="<?php _e('[:en]http://cliniqueopus.com[:][:fr]http://cliniqueopus.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/opus.png" alt="" />
+						<span class="sr-only">Clinique OPUS</span>
+					</a>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<a href="https://tommyzengallery.ca/" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/gallery-tz.png" alt="" />
+						<span class="sr-only">Galerie Tommy Zen</span>
+					</a>
+				</div>
+			</div>
+			<!-- ROW OF 4 ENDS -->
             <div class="row">
 				<div class="col-md-4">
 					<a href="<?php _e('[:en]https://i24image.com[:][:fr]https://i24image.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
@@ -133,48 +157,28 @@
                         <span class="sr-only">i24</span>
                     </a>
                 </div>
-				<div class="col-md-4">
-					<a href="<?php _e('[:en]https://beaus.ca/[:][:fr]https://beaus.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/beaus.png" alt="" />
-						<span class="sr-only">Beau's</span>
-					</a>
-				</div>
                 <div class="col-md-4">
 					<a href="https://cliniquelactuel.com" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lactuel.png" alt="" />
                         <span class="sr-only">L'Actuel</span>
                     </a>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-md-4">
                     <a href="https://www.carreconfiseries.com" target="_blank" rel="noopener" data-external="true">
                         <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/carre-confiseries.png" alt="" />
                         <span class="sr-only">Carré Confiseries</span>
                     </a>
                 </div>
-                <div class="col-md-4">
-                    <a href="<?php _e('[:en]https://www.deserres.ca/en/[:][:fr]https://www.deserres.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-                        <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/deserres.png" alt="" />
-                        <span class="sr-only">DeSerres</span>
-                    </a>
-                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-4">
 					<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/olivier-gagnon.png" alt="" />
 					<span class="sr-only">Oliver Gagnon</span>
                 </div>
-            </div>
-            <div class="row">
 				<div class="col-md-4">
 					<a href="<?php _e('[:en]https://www.montrealgayvillage.com/[:][:fr]https://www.villagegaimontreal.com/[:]')?>" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/village.png" alt="" />
 						<span class="sr-only"><?php _e('[:en]Gay Village of Montreal[:][:fr]Village Gai de Montréal[:]')?></span>
-					</a>
-				</div>
-				<div class="col-md-4">
-					<a href="<?php _e('[:en]http://cliniqueopus.com[:][:fr]http://cliniqueopus.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/opus.png" alt="" />
-						<span class="sr-only">Clinique OPUS</span>
 					</a>
 				</div>
                 <div class="col-md-4">
@@ -206,5 +210,5 @@
 </div>
 </div>
 
-		</div>
+</div>
 <?php wp_reset_query(); get_footer(); ?>
