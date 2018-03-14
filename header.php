@@ -115,7 +115,9 @@
 				<p>Salon Urbain, Place des Arts</p>
 				<p>1600 Rue Saint-Urbain</p>
 			</div>
-			<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?>, <span class="text-nowrap"><strong><?php echo $hours;?></strong> <?php _e('[:en]hours until[:][:fr]heures avant[:]'); ?> <strong class="large">Artsida 8</strong></span></p>
+			<p class="text-center time-left">
+			<strong><?php _e('[:en]See you next year![:][:fr]À l\'année prochaine[:]'); ?>!</strong>
+			</p>
 		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">
