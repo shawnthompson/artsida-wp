@@ -1,9 +1,9 @@
 <?php
-	$date = strtotime("March 11, 2018 22:00");
+	$date = strtotime("February 3, 2019 18:30");
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
-	$cssVersion = "1.9.2";
+	$cssVersion = "2.0";
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -42,9 +42,9 @@
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:title" content="Artsida 8 - March 11th, 2018" />
+	<meta property="og:title" content="Artsida 9 - February 3rd, 2019" />
 	<meta property="og:url" content="http://artsida.org" />
-	<meta property="og:site_name" content="Artsida 8"/>
+	<meta property="og:site_name" content="Artsida 9"/>
 	<meta property="og:type" content="Website"/>
 	<meta property="og:description" content="Artsida is an art auction fundraiser for AIDS Community Care Montreal, a volunteer-based community organization working to enhance the quality of life of people living with HIV/AIDS, to prevent HIV transmission, and to promote community awareness and action."/>
 	<?php endif; ?>
@@ -83,11 +83,11 @@
 				<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
 				</div>
 				<div class="col-xs-8">
-					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><span class="sr-only">Artsida 8</span><img src="<?php bloginfo('template_url'); ?>/img/artsida8.jpg" class="center-block img-responsive" alt="" /></a></h1>
+					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><span class="sr-only">Artsida 8</span><img src="<?php bloginfo('template_url'); ?>/img/artsida9.png" class="center-block img-responsive" alt="" /></a></h1>
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
 					<div class="event">
-						<p class="date"><?php _e('[:en]Sunday March 11<sup>th</sup>[:][:fr]Dimanche le 11 mars[:]'); ?> 2018</p>
-						<p class="time"><?php _e('[:en]6:00pm - 10:30pm[:][:fr]18h00 - 22h30[:]'); ?></p>
+						<p class="date"><?php _e('[:en]Sunday February 3<sup>rd</sup>[:][:fr]Dimanche le 3 février[:]'); ?> 2019</p>
+						<p class="time"><?php _e('[:en]6:30pm - 10:30pm[:][:fr]18h30 - 22h30[:]'); ?></p>
 					</div>
 				</div>
 				<div class="col-xs-2">
@@ -111,13 +111,10 @@
 				</section>
 			</div>
 			<div class="venue">
-				<p><a target="_blank" href="<?php _e('[:en]https://placedesarts.com/en/produce-event/salon-urbain[:][:fr]https://placedesarts.com/fr/produire-evenement/salon-urbain[:]'); ?>"><span lang="fr" class="sr-only">Place des arts</span><img src="<?php bloginfo('template_url'); ?>/img/placedesarts.png" alt=""></a></p>
-				<p>Salon Urbain, Place des Arts</p>
-				<p>1600 Rue Saint-Urbain</p>
+				<p><a target="_blank" href="<?php _e('[:en]https://macm.org/en/[:][:fr]https://macm.org/[:]'); ?>"><span lang="fr" class="sr-only">Musée d'art contemporain de Montréal</span><img src="<?php bloginfo('template_url'); ?>/img/logo-mac.png" alt=""></a></p>
+				<p>185 <?php _e('[:en]Sainte-Catherine Street West[:][:fr]rue Sainte-Catherine Ouest[:]'); ?></p>
 			</div>
-			<p class="text-center time-left">
-			<strong><?php _e('[:en]See you next year![:][:fr]À l\'année prochaine[:]'); ?>!</strong>
-			</p>
+			<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?> <span class="text-nowrap"> <?php _e('[:en]until[:][:fr]avant[:]'); ?> <strong class="large">Artsida 9</strong></span></p>
 		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">

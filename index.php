@@ -109,7 +109,7 @@
 
 			<div class="hidden-xs col-sm-2 red responsive"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pic3.jpg" class="bottom-left photov" alt=""></div>
 			<div class="hidden-xs col-sm-3 purple"></div>
-			<div class="col-sm-7 purple responsive twitter-wrapper"><a class="twitter-timeline" data-height="378" data-width="500" href="https://twitter.com/ARTSIDA8">Tweets by ARTSIDA8</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+			<div class="col-sm-7 purple responsive twitter-wrapper"><a class="twitter-timeline" data-height="378" data-width="500" href="https://twitter.com/ARTSIDA9">Tweets by ARTSIDA9</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 <div class="col-sm-12 yellow-grad responsive"></div>
 </div>
