@@ -9,10 +9,13 @@
 			<h2 class="sr-only">Social Media</h2>
 			<ul class="list-inline">
 				<li>
-					<a target="_blank" href="https://www.facebook.com/ARTSIDA/"><i class="fa fa-facebook-square fa-4x"></i><span class="sr-only">Facebook</span></a>
+					<a target="_blank" href="https://www.facebook.com/ARTSIDA/"><i class="fab fa-facebook-square fa-4x"></i><span class="sr-only">Facebook</span></a>
 				</li>
 				<li>
-					<a target="_blank" href="https://twitter.com/ARTSIDA8"><i class="fa fa-twitter-square fa-4x"></i><span class="sr-only">Twitter</span></a>
+					<a target="_blank" href="https://twitter.com/ARTSIDA9"><i class="fab fa-twitter-square fa-4x"></i><span class="sr-only">Twitter</span></a>
+				</li>
+				<li>
+					<a target="_blank" href="https://www.instagram.com/artsida/"><i class="fab fa-instagram fa-4x"></i><span class="sr-only">Twitter</span></a>
 				</li>
 			</ul>
 		</section>

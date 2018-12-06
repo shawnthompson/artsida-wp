@@ -3,7 +3,7 @@
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
-	$cssVersion = "2.0";
+	$cssVersion = "2.0.1";
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -49,7 +49,7 @@
 	<meta property="og:description" content="Artsida is an art auction fundraiser for AIDS Community Care Montreal, a volunteer-based community organization working to enhance the quality of life of people living with HIV/AIDS, to prevent HIV transmission, and to promote community awareness and action."/>
 	<?php endif; ?>
 	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico"  type="image/x-icon">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<?php if (is_page_template('page-table.php')) { ?>
 		<link rel="stylesheet" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" />
