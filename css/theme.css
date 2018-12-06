@@ -318,28 +318,6 @@ main .search-everything-highlight-color {
 	font-size: 200%;
 }
 
-/* Ticket page */
-
-.page-id-14 main h2 {
-	line-height: 0.8;
-}
-
-.page-id-14 main h3 span {
-	margin-left: 15px;
-}
-
-.page-id-14 main p:nth-child(2) {
-	margin-left: 15px;
-}
-
-.page-id-14 main h2:nth-child(3) {
-	margin-top: 50px;
-}
-
-.page-id-14 main section {
-	margin-left: 15px;
-}
-
 /* Footer */
 footer {
 	padding: 15px;
