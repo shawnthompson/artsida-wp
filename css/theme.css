@@ -193,13 +193,13 @@ header nav ul li:nth-child(4) {
 header .bids {
 	text-align: right;
 	margin: 0;
-	padding-top: 17px;
+	padding: 17px;
 }
 
 header .bids a {
 	color: #fff;
 	font-weight: bold;
-	font-size: 150%;
+	font-size: 175%;
 	text-transform: uppercase;
 }
 
@@ -504,12 +504,12 @@ footer img {
 	}
 
 	header .cell {
-		min-height: 3.73em;
+		min-height: 3.95em;
 	}
 
 	/* French cell in nav */
 	html[lang="fr-FR"] header .cell {
-		min-height: 3.05em;
+		min-height: 3.2em;
 	}
 
 	header .menu {
@@ -541,8 +541,12 @@ footer img {
 		text-transform: uppercase;
 		font-size: 170%;
 		font-weight: bold;
-		padding: 13px 5px;
+		padding: 15px 5px;
 		letter-spacing: 3px;
+	}
+
+	header .bids a {
+		font-size: 140%;
 	}
 
 	/* French nav */
@@ -550,6 +554,11 @@ footer img {
 		font-size: 120%;
 	}
 
+	html[lang="fr-FR"] header .bids a {
+		padding-top: 8px;
+		font-size: 100%;
+	}
+	
 	header nav li a:hover, header nav li a:focus {
 		text-decoration: none;
 		color: #262626;
@@ -665,7 +674,12 @@ footer img {
 	}
 
 	header .cell, html[lang="fr-FR"] header .cell {
-		min-height: 3.9em;
+		min-height: 4.1em;
+	}
+
+	html[lang="fr-FR"] header .bids {
+		padding-top: 20px;
+		font-size: 150%;
 	}
 
 	main .tag {
@@ -685,7 +699,7 @@ footer img {
 	}
 
 	header .cell, html[lang="fr-FR"] header .cell {
-		min-height: 4.15em;
+		min-height: 4.35em;
 	}
 
 	main h1 {
