@@ -57,7 +57,7 @@
 				</div>
                 <div class="col-md-4">
 					<a href="<?php _e('[:en]https://www.segalcentre.org[:][:fr]https://www.segalcentre.org/fr/home[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/segal-centre.png" alt="" />
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/segal2019.png" alt="" />
                         <span class="sr-only">Segal Centre</span>
                     </a>
                 </div>
