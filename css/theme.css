@@ -508,7 +508,7 @@ footer img {
 	}
 
 	/* French cell in nav */
-	html[lang="fr"] header .cell {
+	html[lang="fr-FR"] header .cell {
 		min-height: 3.05em;
 	}
 
@@ -546,7 +546,7 @@ footer img {
 	}
 
 	/* French nav */
-	html[lang="fr"] header nav li a {
+	html[lang="fr-FR"] header nav li a {
 		font-size: 120%;
 	}
 
@@ -660,11 +660,11 @@ footer img {
 		max-height: 100px;
 	}
 
-	header nav li a, html[lang="fr"] header nav li a {
+	header nav li a, html[lang="fr-FR"] header nav li a {
 		font-size: 180%
 	}
 
-	header .cell, html[lang="fr"] header .cell {
+	header .cell, html[lang="fr-FR"] header .cell {
 		min-height: 3.9em;
 	}
 
@@ -680,11 +680,11 @@ footer img {
 		 font-size: 4em;
 	}
 
-	header nav li a, html[lang="fr"] header nav li a {
+	header nav li a, html[lang="fr-FR"] header nav li a {
 		font-size: 200%;
 	}
 
-	header .cell, html[lang="fr"] header .cell {
+	header .cell, html[lang="fr-FR"] header .cell {
 		min-height: 4.15em;
 	}
 
@@ -714,7 +714,7 @@ footer img {
 		font-size: 2em;
 	}
 
-	html[lang="fr"] main .tag {
+	html[lang="fr-FR"] main .tag {
 		width: 100%;
 		font-size: 1.8em;
 	}
