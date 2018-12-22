@@ -20,19 +20,93 @@
 			</ul>
 		</section>
 		<div class="col-md-6">
-		<section class="col-xs-6">
-			<h3><?php _e('[:en]Presented by[:][:fr]Présenté par[:]'); ?>:</h3>
-				<a target="_blank" href="<?php _e('[:en]https://www.td.com/ca/en/personal-banking/[:][:fr]https://www.td.com/francais/a-propos-du-gfbtd/nos-entreprises/index.jsp[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD"></a>
-		</section>
-		<section class="col-xs-12 col-sm-6">
-			<h3><?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>:</h3>
-				<a target="_blank" href="http://www.encadrex.com/index.php/<?php _e('[:en]en-US/[:][:fr]fr/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
-		</section>
-		<section class="col-xs-12 col-sm-6">
-			<h3><?php _e('[:en]Audience Choice Award Presenter[:][:fr]Présentateur du Prix du public[:]')?>:</h3>
-				<a target="_blank" href="<?php _e('[:en]http://www.claudecormier.com/en/[:][:fr]http://www.claudecormier.com[:]')?>"><img class="img-responsive mrgn-tp-sm" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/claude-cormier.png" alt=""><span class="sr-only"><?php _e('[:en]Claude Cormier + <span lang="fr">associés</span> inc. - Landscape Architecture and Urban Design[:][:fr]Claude Cormier + associés inc. - <span lang="en">Landscape Architecture and Urban Design</span>[:]')?></span></a>
-		</section>
+			<section class="col-xs-6">
+				<h3><?php _e('[:en]Presented by[:][:fr]Présenté par[:]'); ?>:</h3>
+					<a target="_blank" href="<?php _e('[:en]https://www.td.com/ca/en/personal-banking/[:][:fr]https://www.td.com/francais/a-propos-du-gfbtd/nos-entreprises/index.jsp[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD"></a>
+			</section>
+			<section class="col-xs-12 col-sm-6">
+				<h3><?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>:</h3>
+					<a target="_blank" href="http://www.encadrex.com/index.php/<?php _e('[:en]en-US/[:][:fr]fr/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
+			</section>
+			<section class="col-xs-12 col-sm-6">
+				<h3><?php _e('[:en]Audience Choice Award Presenter[:][:fr]Présentateur du Prix du public[:]')?>:</h3>
+					<a target="_blank" href="<?php _e('[:en]http://www.claudecormier.com/en/[:][:fr]http://www.claudecormier.com[:]')?>"><img class="img-responsive mrgn-tp-sm" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/claude-cormier.png" alt=""><span class="sr-only"><?php _e('[:en]Claude Cormier + <span lang="fr">associés</span> inc. - Landscape Architecture and Urban Design[:][:fr]Claude Cormier + associés inc. - <span lang="en">Landscape Architecture and Urban Design</span>[:]')?></span></a>
+			</section>
 		</div>
+
+		<div class="clearfix"></div>
+
+		<div class="row mrgn-bttm-lg sponsorsPartners">
+			<section class="col-md-12">
+				<h3 class="text-center"><?php _e('[:en]Partner Sponsors[:][:fr]Commanditaires partenaires[:]')?></h3>
+				<div class="row">
+					<div class="col-md-4">
+						<a href="<?php _e('[:en]https://www.viivhealthcare.ca[:][:fr]https://www.viivhealthcare.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/viiv.png" alt="" />
+							<span class="sr-only">Viiv</span>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="<?php _e('[:en]http://www.eskawater.com[:][:fr]http://www.eskawater.com/?lang=fr[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/eska.png" alt="" />
+							<span class="sr-only">ESKA</span>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="<?php _e('[:en]https://www.segalcentre.org[:][:fr]https://www.segalcentre.org/fr/home[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/segal2019.png" alt="" />
+							<span class="sr-only">Segal Centre</span>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<a href="https://www.matthewperrin.photos" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/matthew-perrin.png" alt="" />
+							<span class="sr-only">Matthew Perrin Photos</span>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="<?php _e('[:en]https://www.westjet.com/en-ca/index[:][:fr]https://www.westjet.com/fr-ca/index[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/westjet.png" alt="" />
+							<span class="sr-only">Westjet</span>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="<?php _e('[:en]http://www.epikmontreal.com[:][:fr]http://www.epikmontreal.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/epik.png" alt="" />
+							<span class="sr-only">Epik</span>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/olivier-gagnon.png" alt="" />
+						<span class="sr-only">Oliver Gagnon</span>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<a href="<?php _e('[:en]https://www.montrealgayvillage.com/[:][:fr]https://www.villagegaimontreal.com/[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/village.png" alt="" />
+							<span class="sr-only"><?php _e('[:en]Gay Village of Montreal[:][:fr]Village Gai de Montréal[:]')?></span>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<a href="<?php _e('[:en]https://www.galeriemx.com/en/[:][:fr]https://www.galeriemx.com/[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/galerie-mx.png" alt="" />
+							<span class="sr-only">Galerie MX</span>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<a href="<?php _e('[:en]http://cliniqueopus.com[:][:fr]http://cliniqueopus.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/opus.png" alt="" />
+							<span class="sr-only">Clinique OPUS</span>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>
+
+
 	</footer>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

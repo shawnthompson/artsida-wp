@@ -19,7 +19,7 @@
 		<?php _e('[:en]We rely greatly on corporate sponsors to help us make Artsida a success. If you or your company are interested in supporting our event in some way, contact <a href="mailto:artsida@accmontreal.org">artsida@accmontreal.org</a>[:]
 		[:fr]Le succès d’Artsida repose en grande partie sur l’aide de commanditaires. Si vous, ou votre entreprise, souhaitez appuyer l’événement de quelconque façon, communiquez avec nous à l’adresse <a href="mailto:artsida@accmontreal.org" data-external="true">artsida@accmontreal.org</a>[:]'); ?>
 		<div class="row container">
-			<div class="col-md-10 col-md-offset-2 col-lg-offset-3">
+			<div class="col-md-10 col-lg-9 col-md-offset-2 col-lg-offset-3">
 				<section class="col-md-6">
 					<h2><?php _e('[:en]Presenting Sponsor[:][:fr]Commanditaire principal[:]')?></h2>
 					<p><a href="<?php _e('[:en]https://www.td.com/ca/en/personal-banking/[:][:fr]https://www.td.com/francais/a-propos-du-gfbtd/nos-entreprises/index.jsp[:]')?>"><img src="/wp-content/uploads/2015/06/sponsor-td.gif" alt="sponsor-td" />
