@@ -77,11 +77,31 @@
                 </div>
 				<div class="col-md-4">
 					<a href="<?php _e('[:en]http://www.epikmontreal.com[:][:fr]http://www.epikmontreal.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/epik.png" alt="" />
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/epik2.png" alt="" />
 						<span class="sr-only">Epik</span>
 					</a>
 				</div>
             </div>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]http://www.viarail.ca/en[:][:fr]http://www.viarail.ca/fr[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/via-rail.png" alt="" />
+						<span class="sr-only">VIA Rail</span>
+					</a>
+				</div>				
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]http://www.westmountmoving.com[:][:fr]http://www.demenagementwestmount.com[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/westmount.png" alt="" />
+						<span class="sr-only"><?php _e('[:en]Westmount Moving[:][:fr]Déménagement Westmount[:]')?></span>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="https://cliniquelactuel.com" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lactuel.png" alt="" />
+						<span class="sr-only">L'Actuel</span>
+					</a>
+				</div>
+			</div>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
 					<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/olivier-gagnon.png" alt="" />
@@ -106,17 +126,25 @@
 					</a>
 				</div>
             </div>
+			<div class="row">
+				<div class="col-md-3 col-md-offset-3 col-sm-6">
+					<a href="http://www.lbvinternational.com/" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lbv.png" alt="" />
+						<span class="sr-only">LBV International</span>
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<a href="<?php _e('[:en]https://www.alphaplantes.com/en-CA/home[:][:fr]https://www.alphaplantes.com/accueil[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/alpha.png" alt="" />
+						<span class="sr-only">LBV International</span>
+					</a>
+				</div>
+			</div>
            <!-- <div class="row">
 				<div class="col-md-4">
 					<a href="<?php _e('[:en]http://mcgillivf.com/home.html[:][:fr]http://mcgillivf.com/home.html?&Language=FR_[:]')?>" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/reproductive-centre.png" alt="" />
                         <span class="sr-only"><?php _e('[:en]MUHC Reproductive Centre[:][:fr]Centre de la reproduction du CUSM[:]')?></span>
-                    </a>
-                </div>
-               <div class="col-md-4">
-					<a href="<?php _e('[:en]http://www.westmountmoving.com[:][:fr]http://www.demenagementwestmount.com[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/westmount.png" alt="" />
-                        <span class="sr-only"><?php _e('[:en]Westmount Moving[:][:fr]Déménagement Westmount[:]')?></span>
                     </a>
                 </div>
             </div> -->
@@ -155,12 +183,6 @@
 					<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/eric-lacoursiere.png" alt="" />
 					<span class="sr-only">Eric Lacousiere</span>
 				</div>
-				<div class="col-md-4">
-					<a href="http://www.lbvinternational.com/" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lbv.png" alt="" />
-						<span class="sr-only">LBV International</span>
-					</a>
-				</div>
                 <div class="col-md-4">
                     <a href="<?php _e('[:en]http://www.atypic.ca/en/[:][:fr]http://www.atypic.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
                         <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/atypic.png" alt="" />
@@ -173,12 +195,6 @@
 					<a href="<?php _e('[:en]https://i24image.com[:][:fr]https://i24image.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/i24.png" alt="" />
                         <span class="sr-only">i24</span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-					<a href="https://cliniquelactuel.com" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lactuel.png" alt="" />
-                        <span class="sr-only">L'Actuel</span>
                     </a>
                 </div>
                 <div class="col-md-4">
@@ -195,12 +211,6 @@
                         <span class="sr-only">TAVIE</span>
                     </a>
                 </div>
-                <div class="col-md-4">
-					<a href="<?php _e('[:en]http://www.viarail.ca/en[:][:fr]http://www.viarail.ca/fr[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/via-rail.png" alt="" />
-                        <span class="sr-only">VIA Rail</span>
-                    </a>
-                </div>				
 				<div class="col-md-4">
 					<a href="http://pamco.ca" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/pamco.png" alt="" />

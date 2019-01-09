@@ -74,8 +74,28 @@
 					</div>
 					<div class="col-md-4">
 						<a href="<?php _e('[:en]http://www.epikmontreal.com[:][:fr]http://www.epikmontreal.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/epik.png" alt="" />
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/epik2.png" alt="" />
 							<span class="sr-only">Epik</span>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<a href="<?php _e('[:en]http://www.viarail.ca/en[:][:fr]http://www.viarail.ca/fr[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/via-rail.png" alt="" />
+							<span class="sr-only">VIA Rail</span>
+						</a>
+					</div>				
+					<div class="col-md-4">
+						<a href="<?php _e('[:en]http://www.westmountmoving.com[:][:fr]http://www.demenagementwestmount.com[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/westmount.png" alt="" />
+							<span class="sr-only"><?php _e('[:en]Westmount Moving[:][:fr]Déménagement Westmount[:]')?></span>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://cliniquelactuel.com" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lactuel.png" alt="" />
+							<span class="sr-only">L'Actuel</span>
 						</a>
 					</div>
 				</div>
@@ -100,6 +120,20 @@
 						<a href="<?php _e('[:en]http://cliniqueopus.com[:][:fr]http://cliniqueopus.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
 							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/opus.png" alt="" />
 							<span class="sr-only">Clinique OPUS</span>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-md-offset-3 col-sm-6">
+						<a href="http://www.lbvinternational.com/" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lbv.png" alt="" />
+							<span class="sr-only">LBV International</span>
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<a href="<?php _e('[:en]https://www.alphaplantes.com/en-CA/home[:][:fr]https://www.alphaplantes.com/accueil[:]')?>" target="_blank" rel="noopener" data-external="true">
+							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/alpha.png" alt="" />
+							<span class="sr-only">LBV International</span>
 						</a>
 					</div>
 				</div>
