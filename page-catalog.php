@@ -14,7 +14,7 @@
 		</div>
 		<div class="col-sm-12 text">
 		<?php
-			$cutoff_date = '2020-09-20';
+			$cutoff_date = '2018-09-20';
 			$args = array(
 				'cat' => 2,
 				'orderby'  => 'meta_value',
@@ -28,7 +28,7 @@
 			query_posts( $args );
 		?>
 		<?php if (have_posts() ) { ?>
-		<div class="pull-right"><?php get_search_form(); ?></div>
+		<!-- <div class="pull-right"><?php get_search_form(); ?></div> -->
 		<?php } ?>
 			<div class="hidden-xs col-sm-4 mrgn-bttm-lg">
 			<?php
@@ -61,7 +61,7 @@
 						<div class="clearfix"></div>
 						<?php bittersweet_pagination() ?>
 	            <?php else : ?>
-	            	<p><?php _e('[:en]Selection process in the Fall. <a href="mailto:artsida@accmontreal.org">Contact us</a> for more details.[:][:fr]Processus de sélection en automne. <a href="mailto:artsida@accmontreal.org">Contactez-nous</a> pour plus de détails.[:]'); ?></p>
+				<p><?php _e('[:en]Selection process. <a href="mailto:artsida@accmontreal.org">Contact us</a> for more details.[:][:fr]Processus de sélection. <a href="mailto:artsida@accmontreal.org">Contactez-nous</a> pour plus de détails.[:]'); ?></p>
 				<?php endif; ?>
 			</div>
 		</div>
