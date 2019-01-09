@@ -150,7 +150,7 @@
 				<div class="col-md-4">
 					<a href="<?php _e('[:en]https://www.alphaplantes.com/en-CA/home[:][:fr]https://www.alphaplantes.com/accueil[:]')?>" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/alpha.png" alt="" />
-						<span class="sr-only">LBV International</span>
+						<span class="sr-only">Alpha Plantes</span>
 					</a>
 				</div>
 			</div>
