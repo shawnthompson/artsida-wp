@@ -103,37 +103,51 @@
 				</div>
 			</div>
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4">
 					<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/olivier-gagnon.png" alt="" />
 					<span class="sr-only">Oliver Gagnon</span>
                 </div>
-				<div class="col-md-3 col-sm-6">
+				<div class="col-md-4">
 					<a href="<?php _e('[:en]https://www.montrealgayvillage.com/[:][:fr]https://www.villagegaimontreal.com/[:]')?>" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/village.png" alt="" />
 						<span class="sr-only"><?php _e('[:en]Gay Village of Montreal[:][:fr]Village Gai de Montréal[:]')?></span>
 					</a>
 				</div>
-				<div class="col-md-3 col-sm-6">
+				<div class="col-md-4">
 					<a href="<?php _e('[:en]https://www.galeriemx.com/en/[:][:fr]https://www.galeriemx.com/[:]')?>" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/galerie-mx.png" alt="" />
 						<span class="sr-only">Galerie MX</span>
 					</a>
 				</div>
-				<div class="col-md-3 col-sm-6">
-					<a href="<?php _e('[:en]http://cliniqueopus.com[:][:fr]http://cliniqueopus.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/opus.png" alt="" />
-						<span class="sr-only">Clinique OPUS</span>
-					</a>
-				</div>
             </div>
 			<div class="row">
-				<div class="col-md-3 col-md-offset-3 col-sm-6">
+				<div class="col-md-4">
 					<a href="http://www.lbvinternational.com/" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lbv.png" alt="" />
 						<span class="sr-only">LBV International</span>
 					</a>
 				</div>
-				<div class="col-md-3 col-sm-6">
+				<div class="col-md-4">
+					<a href="https://www1.pharmaprix.ca/<?php _e('[:en]en[:][:fr]fr[:]')?>/store-locator/store/29" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/pharmaprix.jpg" alt="" />
+						<span class="sr-only">Pharmaprix - Van Hoenacker Tremblay - 901 Ste Catherine Est - 3861 St-Laurent, Montreal</span>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]http://cliniqueopus.com[:][:fr]http://cliniqueopus.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/opus.png" alt="" />
+						<span class="sr-only">Clinique OPUS</span>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]https://bydealers.com/[:][:fr]https://bydealers.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/bydealers.jpg" alt="" />
+						<span class="sr-only"><?php _e('[:en]BYDealers Auction house[:fr]Les enchères BYDealers[:]')?> </span>
+					</a>
+				</div>
+				<div class="col-md-4">
 					<a href="<?php _e('[:en]https://www.alphaplantes.com/en-CA/home[:][:fr]https://www.alphaplantes.com/accueil[:]')?>" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/alpha.png" alt="" />
 						<span class="sr-only">LBV International</span>
