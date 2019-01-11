@@ -118,39 +118,51 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
-						<a href="http://www.lbvinternational.com/" target="_blank" rel="noopener" data-external="true">
-							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lbv.png" alt="" />
-							<span class="sr-only">LBV International</span>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="https://www1.pharmaprix.ca/<?php _e('[:en]en[:][:fr]fr[:]')?>/store-locator/store/29" target="_blank" rel="noopener" data-external="true">
-							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/pharmaprix.jpg" alt="" />
-							<span class="sr-only">Pharmaprix - Van Hoenacker Tremblay - 901 Ste Catherine Est - 3861 St-Laurent, Montreal</span>
-						</a>
-					</div>
+				<div class="col-md-4">
+					<a href="http://www.lbvinternational.com/" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lbv.png" alt="" />
+						<span class="sr-only">LBV International</span>
+					</a>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<a href="<?php _e('[:en]http://cliniqueopus.com[:][:fr]http://cliniqueopus.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/opus.png" alt="" />
-							<span class="sr-only">Clinique OPUS</span>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="<?php _e('[:en]https://bydealers.com/[:][:fr]https://bydealers.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/bydealers.jpg" alt="" />
-							<span class="sr-only"><?php _e('[:en]BYDealers Auction house[:fr]Les enchères BYDealers[:]')?> </span>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="<?php _e('[:en]https://www.alphaplantes.com/en-CA/home[:][:fr]https://www.alphaplantes.com/accueil[:]')?>" target="_blank" rel="noopener" data-external="true">
-							<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/alpha.png" alt="" />
-							<span class="sr-only">Alpha Plantes</span>
-						</a>
-					</div>
+				<div class="col-md-4">
+					<a href="http://theratech.com" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/thera.jpg" alt="" />
+						<span class="sr-only">Thera technologies</span>
+					</a>
 				</div>
+				<div class="col-md-4">
+				<a href="https://www1.pharmaprix.ca/<?php _e('[:en]en[:][:fr]fr[:]')?>/store-locator/store/29" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/pharmaprix.jpg" alt="" />
+						<span class="sr-only">Pharmaprix - Van Hoenacker Tremblay - 901 Ste Catherine Est - 3861 St-Laurent, Montreal</span>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<a href="<?php _e('[:en]http://cliniqueopus.com[:][:fr]http://cliniqueopus.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/opus.png" alt="" />
+						<span class="sr-only">Clinique OPUS</span>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="<?php _e('[:en]https://bydealers.com/[:][:fr]https://bydealers.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/bydealers.jpg" alt="" />
+						<span class="sr-only"><?php _e('[:en]BYDealers Auction house[:fr]Les enchères BYDealers[:]')?> </span>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="<?php _e('[:en]https://www.alphaplantes.com/en-CA/home[:][:fr]https://www.alphaplantes.com/accueil[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/alpha.png" alt="" />
+						<span class="sr-only">Alpha Plantes</span>
+					</a>
+				</div>
+				<div class="col-md-3">
+				<a href="http://www.myhomeourcity.com/" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/myhome.png" alt="" />
+						<span class="sr-only">My home our city</span>
+					</a>
+				</div>
+			</div>
 			</section>
 		</div>
 
