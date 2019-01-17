@@ -28,10 +28,6 @@
 				<h3><?php _e('[:en]Framing Sponsor[:][:fr]Commanditaire Encadrement[:]'); ?>:</h3>
 					<a target="_blank" href="http://www.encadrex.com/index.php/<?php _e('[:en]en-US/[:][:fr]fr/[:]'); ?>"><img class="img-responsive mrgn-tp-sm" src="<?php bloginfo('template_url'); ?>/img/sponsor-encadrex.png" alt="encadrex"></a>
 			</section>
-			<section class="col-xs-12 col-sm-6">
-				<h3><?php _e('[:en]Audience Choice Award Presenter[:][:fr]Présentateur du Prix du public[:]')?>:</h3>
-					<a target="_blank" href="<?php _e('[:en]http://www.claudecormier.com/en/[:][:fr]http://www.claudecormier.com[:]')?>"><img class="img-responsive mrgn-tp-sm" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/claude-cormier.png" alt=""><span class="sr-only"><?php _e('[:en]Claude Cormier + <span lang="fr">associés</span> inc. - Landscape Architecture and Urban Design[:][:fr]Claude Cormier + associés inc. - <span lang="en">Landscape Architecture and Urban Design</span>[:]')?></span></a>
-			</section>
 		</div>
 
 		<div class="clearfix"></div>
@@ -195,6 +191,40 @@
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/prelib.jpg" alt="" />
 						<span class="sr-only" lang="fr">Prelib - Centre d'auto-prélèvement</span>
 					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]http://silvermanavocat.ca[:][:fr]http://silvermanavocat.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/maxsilverman.jpg" alt="" />
+						<span class="sr-only">Max Silverman: <span lang="fr">Avocat </span><span lang="en">Lawyer</span></span>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="https://www.cliniquemedicalelalicorne.com/" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lalicorne.png" alt="" />
+						<span class="sr-only" lang="fr">Clinique M&eacute;dicale La Licorne</span>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]http://www.claudecormier.com/en/[:][:fr]http://www.claudecormier.com[:]')?>" target="_blank" rel="noopener">
+						<img class="img-responsive" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/claude-cormier.png" alt="" />
+						<span class="sr-only"><?php _e('[:en]Claude Cormier + <span lang="fr">associés</span> inc. - Landscape Architecture and Urban Design[:][:fr]Claude Cormier + associés inc. - <span lang="en">Landscape Architecture and Urban Design</span>[:]')?></span>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="https://www.carreconfiseries.com" target="_blank" rel="noopener" data-external="true">
+                        <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/carre-confiseries.png" alt="" />
+                        <span class="sr-only">Carré Confiseries</span>
+                    </a>
+				</div>
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]https://www.davidstea.com/ca_en/home/[:][:fr]https://www.davidstea.com/ca_fr/home/[:]')?>" target="_blank" rel="noopener" data-external="true">
+                        <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/davidstea.jpg" alt="" />
+                        <span class="sr-only"><?php _e('[:en]Davis Tea[:][:fr]Les th&eactue;s Davis Tea[:]')?></span>
+                    </a>
 				</div>
 			</div>
 			</section>
