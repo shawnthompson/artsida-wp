@@ -228,6 +228,12 @@
                         <span class="sr-only"><?php _e('[:en]Davis Tea[:][:fr]Les th&eactue;s Davis Tea[:]')?></span>
                     </a>
 				</div>
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]http://javaucatering.com/[:][:fr]http://javaucatering.com/accueil.asp[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/javau.png" alt="" />
+						<span class="sr-only">Java U</span>
+					</a>
+				</div>
 			</div>
 		</section>
 	</div>
