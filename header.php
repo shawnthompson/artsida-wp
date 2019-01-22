@@ -38,12 +38,12 @@
 		   ?>
 	</title>
 	<?php if (is_home()) :?>
-	<meta property="og:image" content="http://artsida.org/artsida7-og2.jpg" />
+	<meta property="og:image" content="https://artsida.org/artsida7-og2.jpg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:title" content="Artsida 9 - February 3rd, 2019" />
-	<meta property="og:url" content="http://artsida.org" />
+	<meta property="og:url" content="https://artsida.org" />
 	<meta property="og:site_name" content="Artsida 9"/>
 	<meta property="og:type" content="Website"/>
 	<meta property="og:description" content="Artsida is an art auction fundraiser for AIDS Community Care Montreal, a volunteer-based community organization working to enhance the quality of life of people living with HIV/AIDS, to prevent HIV transmission, and to promote community awareness and action."/>
@@ -80,7 +80,7 @@
 		<div class="col-sm-8 mrgn-tp-md">
 			<div class="row">
 				<div class="col-xs-2 mrgn-tp-md accm-logo">
-				<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
+				<p><a target="_blank" href="<?php _e('[:en]https://accmontreal.org/[:][:fr]https://accmontreal.org/fr[:]'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
 				</div>
 				<div class="col-xs-8">
 					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><span class="sr-only">Artsida 8</span><img src="<?php bloginfo('template_url'); ?>/img/artsida9.png" class="center-block img-responsive" alt="" /></a></h1>
@@ -92,7 +92,7 @@
 				</div>
 				<div class="col-xs-2">
 					<p><span class="small"><?php _e('[:en]Presented&nbsp;by:[:][:fr]Présenté&nbsp;par:[:]'); ?></span><br />
-					<p><a target="_blank" href="http://www.td.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD logo" /></a></p>
+					<p><a target="_blank" href="https://www.td.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD logo" /></a></p>
 				</div>
 			</div>
 		</div>
@@ -135,7 +135,7 @@
 				        ?>
 					</div>
 				</div>
-				<div class="col-sm-3 red cell"><p class="bids"><a href="http://artsida.org/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/absentee/"><?php _e('[:en]Absentee bids[:][:fr]Mise à distance[:]'); ?></a></p></div>
+				<div class="col-sm-3 red cell"><p class="bids"><a href="https://artsida.org/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/absentee/"><?php _e('[:en]Absentee bids[:][:fr]Mise à distance[:]'); ?></a></p></div>
 				<div class="col-sm-1 pink hidden-xs cell"></div>
 			</div>
 		</div>
