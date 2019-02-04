@@ -114,7 +114,6 @@
 				<p><a target="_blank" href="<?php _e('[:en]https://macm.org/en/[:][:fr]https://macm.org/[:]'); ?>"><span lang="fr" class="sr-only">Musée d'art contemporain de Montréal</span><img src="<?php bloginfo('template_url'); ?>/img/logo-mac.png" alt=""></a></p>
 				<p>185 <?php _e('[:en]Sainte-Catherine Street West[:][:fr]rue Sainte-Catherine Ouest[:]'); ?></p>
 			</div>
-			<p class="text-center time-left"><strong><?php echo $days; ?></strong> <?php _e('[:en]days[:][:fr]jours[:]'); ?> <span class="text-nowrap"> <?php _e('[:en]until[:][:fr]avant[:]'); ?> <strong class="large">Artsida 9</strong></span></p>
 		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">
