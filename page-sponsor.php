@@ -31,11 +31,6 @@
 						<p class="mrgn-tp-lg"><a href="<?php _e('[:en]http://www.encadrex.com/index.php/en-US/[:][:fr]http://www.encadrex.com/index.php/fr/[:]')?>" target="_blank" rel="noopener"><img class="img-responsive" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/encadrex.png" alt="" />
 						<span class="sr-only">Encadrex</span></a></p>			
 					</section>
-					<section class="mrgn-tp-lg">
-						<h2><?php _e('[:en]Audience Choice Award Presenter[:][:fr]Présentateur du Prix du public[:]')?></h2>
-						<p class="mrgn-tp-lg"><a href="<?php _e('[:en]http://www.claudecormier.com/en/[:][:fr]http://www.claudecormier.com[:]')?>" target="_blank" rel="noopener"><img class="img-responsive" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/claude-cormier.png" alt="" />
-						<span class="sr-only"><?php _e('[:en]Claude Cormier + <span lang="fr">associés</span> inc. - Landscape Architecture and Urban Design[:][:fr]Claude Cormier + associés inc. - <span lang="en">Landscape Architecture and Urban Design</span>[:]')?></span></a></p>
-					</section>
 				</div>
 			</div>
 		</div>
@@ -98,7 +93,7 @@
 				<div class="col-md-4">
 					<a href="https://cliniquelactuel.com" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lactuel.png" alt="" />
-						<span class="sr-only">L'Actuel</span>
+						<span class="sr-only" lang="fr">L'Actuel - Centre d'excellence VIH - ITS - Hépatites</span>
 					</a>
 				</div>
 			</div>
@@ -128,9 +123,15 @@
 					</a>
 				</div>
 				<div class="col-md-4">
-					<a href="https://www1.pharmaprix.ca/<?php _e('[:en]en[:][:fr]fr[:]')?>/store-locator/store/29" target="_blank" rel="noopener" data-external="true">
+					<a href="http://theratech.com" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/thera.jpg" alt="" />
+						<span class="sr-only">Thera technologies</span>
+					</a>
+				</div>
+				<div class="col-md-4">
+				<a href="https://www1.pharmaprix.ca/<?php _e('[:en]en[:][:fr]fr[:]')?>/store-locator/store/29" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/pharmaprix.jpg" alt="" />
-						<span class="sr-only">Pharmaprix - Van Hoenacker Tremblay - 901 Ste Catherine Est - 3861 St-Laurent, Montreal</span>
+						<span class="sr-only" lang="en">Pharmaprix - Van Hoenacker Tremblay - 901 Ste Catherine Est - 3861 St-Laurent, Montreal</span>
 					</a>
 				</div>
 			</div>
@@ -143,97 +144,99 @@
 				</div>
 				<div class="col-md-4">
 					<a href="<?php _e('[:en]https://bydealers.com/[:][:fr]https://bydealers.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/bydealers.jpg" alt="" />
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/bydealersWhite.jpg" alt="" />
 						<span class="sr-only"><?php _e('[:en]BYDealers Auction house[:fr]Les enchères BYDealers[:]')?> </span>
 					</a>
 				</div>
 				<div class="col-md-4">
 					<a href="<?php _e('[:en]https://www.alphaplantes.com/en-CA/home[:][:fr]https://www.alphaplantes.com/accueil[:]')?>" target="_blank" rel="noopener" data-external="true">
 						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/alpha.png" alt="" />
-						<span class="sr-only">LBV International</span>
+						<span class="sr-only">Alpha Plantes</span>
 					</a>
 				</div>
 			</div>
-           <!-- <div class="row">
+			<div class="row">
 				<div class="col-md-4">
-					<a href="<?php _e('[:en]http://mcgillivf.com/home.html[:][:fr]http://mcgillivf.com/home.html?&Language=FR_[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/reproductive-centre.png" alt="" />
-                        <span class="sr-only"><?php _e('[:en]MUHC Reproductive Centre[:][:fr]Centre de la reproduction du CUSM[:]')?></span>
-                    </a>
-                </div>
-            </div> -->
-			<!-- ROW OF 4 BEGINS -->
-			<!-- <div class="row">
-				<div class="col-md-3 col-sm-6">
-					<a href="<?php _e('[:en]https://beaus.ca/[:][:fr]https://beaus.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/beaus.png" alt="" />
-						<span class="sr-only">Beau's</span>
+					<a href="http://www.myhomeourcity.com/" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/myhomeLG.png" alt="" />
+						<span class="sr-only" lang="en">My home our city</span>
 					</a>
 				</div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="<?php _e('[:en]https://www.deserres.ca/en/[:][:fr]https://www.deserres.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-                        <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/deserres.png" alt="" />
-                        <span class="sr-only">DeSerres</span>
-                    </a>
-                </div>
-				<div class="col-md-3 col-sm-6">
-					<a href="https://tommyzengallery.ca/" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/gallery-tz.png" alt="" />
-						<span class="sr-only">Galerie Tommy Zen</span>
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]https://havana-club.com/en-ca/[:][:fr]https://havana-club.com/fr-fr/home[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/havana.png" alt="" />
+						<span class="sr-only">Havana Club</span>
 					</a>
 				</div>
-			</div> -->
-			<!-- ROW OF 4 ENDS -->
-			<!-- <div class="row">
 				<div class="col-md-4">
-					<a href="https://www.absolut.com/ca/" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/absolut.png" alt="" />
-						<span class="sr-only">Absolut Vodka</span>
+					<a href="<?php _e('[:en]https://www.absolut.com/ca/[:][:fr]https://www.absolut.com/fr[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/absolut.jpg" alt="" />
+						<span class="sr-only">Absolut</span>
 					</a>
 				</div>
-			</div> -->
-			<!-- <div class="row">
-				<div class="col-md-4">
-					<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/eric-lacoursiere.png" alt="" />
-					<span class="sr-only">Eric Lacousiere</span>
+			</div>
+			<div class="row">
+			<div class="col-md-4">
+					<a href="www.gilead.com" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/gilead.jpg" alt="" />
+						<span class="sr-only" lang="en">Gilead - Advance Therapeutics. Impoving Lives</span>
+					</a>
 				</div>
-                <div class="col-md-4">
-                    <a href="<?php _e('[:en]http://www.atypic.ca/en/[:][:fr]http://www.atypic.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-                        <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/atypic.png" alt="" />
-                        <span class="sr-only">Atypic</span>
-                    </a>
-                </div>
-			</div> -->
-            <!-- <div class="row">
 				<div class="col-md-4">
-					<a href="<?php _e('[:en]https://i24image.com[:][:fr]https://i24image.com/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/i24.png" alt="" />
-                        <span class="sr-only">i24</span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://www.carreconfiseries.com" target="_blank" rel="noopener" data-external="true">
+					<a href="www.image-nation.org" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/imagenation.jpg" alt="" />
+						<span class="sr-only" lang="en">Image + nation - Festival film LGBTQueen Montreal</span>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="https://prelib.ca/<?php _e('[:en]en[:][:fr]fr[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/prelib.jpg" alt="" />
+						<span class="sr-only" lang="fr">Prelib - Centre d'auto-prélèvement</span>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-md-4">
+					<a href="<?php _e('[:en]http://silvermanavocat.ca[:][:fr]http://silvermanavocat.ca/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/maxsilverman.jpg" alt="" />
+						<span class="sr-only">Max Silverman: <span lang="fr">Avocat </span><span lang="en">Lawyer</span></span>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="https://www.cliniquemedicalelalicorne.com/" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/lalicorne.png" alt="" />
+						<span class="sr-only" lang="fr">Clinique M&eacute;dicale La Licorne</span>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="<?php _e('[:en]http://www.claudecormier.com/en/[:][:fr]http://www.claudecormier.com[:]')?>" target="_blank" rel="noopener">
+						<img class="img-responsive" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/claude-cormier.png" alt="" />
+						<span class="sr-only"><?php _e('[:en]Claude Cormier + <span lang="fr">associés</span> inc. - Landscape Architecture and Urban Design[:][:fr]Claude Cormier + associés inc. - <span lang="en">Landscape Architecture and Urban Design</span>[:]')?></span>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="https://www.carreconfiseries.com" target="_blank" rel="noopener" data-external="true">
                         <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/carre-confiseries.png" alt="" />
                         <span class="sr-only">Carré Confiseries</span>
                     </a>
-                </div>
-            </div> -->
-            <!-- <div class="row">
+				</div>
 				<div class="col-md-4">
-					<a href="<?php _e('[:en]http://www.tavie.health[:][:fr]http://www.tavie.health/fr/[:]')?>" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/tavie.png" alt="" />
-                        <span class="sr-only">TAVIE</span>
+					<a href="<?php _e('[:en]https://www.davidstea.com/ca_en/home/[:][:fr]https://www.davidstea.com/ca_fr/home/[:]')?>" target="_blank" rel="noopener" data-external="true">
+                        <img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/davidstea.jpg" alt="" />
+                        <span class="sr-only"><?php _e('[:en]Davis Tea[:][:fr]Les th&eactue;s Davis Tea[:]')?></span>
                     </a>
-                </div>
+				</div>
 				<div class="col-md-4">
-					<a href="http://pamco.ca" target="_blank" rel="noopener" data-external="true">
-						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/pamco.png" alt="" />
-                        <span class="sr-only">Pamco</span>
-                    </a>
-                </div>
-			</div> -->
+					<a href="<?php _e('[:en]http://javaucatering.com/[:][:fr]http://javaucatering.com/accueil.asp[:]')?>" target="_blank" rel="noopener" data-external="true">
+						<img class="img-responsive center-block" src="/wp-content/themes/artsida-wp/img/artsida8-sponsors/javau.png" alt="" />
+						<span class="sr-only">Java U</span>
+					</a>
+				</div>
+			</div>
 		</section>
-</div>
+	</div>
 </div>
 
 </div>
