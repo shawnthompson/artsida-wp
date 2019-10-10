@@ -1,5 +1,5 @@
 <?php
-	$date = strtotime("February 3, 2019 18:30");
+	$date = strtotime("February 3, 2020 918:30");
 	$remaining = $date - time();
 	$days = floor($remaining / 86400);
 	$hours = floor(($remaining % 86400) / 3600);
@@ -38,13 +38,13 @@
 		   ?>
 	</title>
 	<?php if (is_home()) :?>
-	<meta property="og:image" content="http://artsida.org/artsida7-og2.jpg" />
+	<meta property="og:image" content="https://artsida.org/artsida10.png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:title" content="Artsida 9 - February 3rd, 2019" />
-	<meta property="og:url" content="http://artsida.org" />
-	<meta property="og:site_name" content="Artsida 9"/>
+	<meta property="og:title" content="Artsida 10" />
+	<meta property="og:url" content="https://artsida.org" />
+	<meta property="og:site_name" content="Artsida 10"/>
 	<meta property="og:type" content="Website"/>
 	<meta property="og:description" content="Artsida is an art auction fundraiser for AIDS Community Care Montreal, a volunteer-based community organization working to enhance the quality of life of people living with HIV/AIDS, to prevent HIV transmission, and to promote community awareness and action."/>
 	<?php endif; ?>
@@ -80,19 +80,19 @@
 		<div class="col-sm-8 mrgn-tp-md">
 			<div class="row">
 				<div class="col-xs-2 mrgn-tp-md accm-logo">
-				<p><a target="_blank" href="http://accmontreal.org/fr"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
+				<p><a target="_blank" href="<?php _e('[:en]https://accmontreal.org/[:][:fr]https://accmontreal.org/fr[:]'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/accm.png" alt="ACCM" class="img-responsive" /></a></p>
 				</div>
 				<div class="col-xs-8">
-					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><span class="sr-only">Artsida 8</span><img src="<?php bloginfo('template_url'); ?>/img/artsida9.png" class="center-block img-responsive" alt="" /></a></h1>
+					<h1 class="mrgn-tp-md"><a href="<?php echo get_option('home'); ?>/<?php _e('[:en]en[:][:fr]fr[:]'); ?>"><span class="sr-only">Artsida 10</span><img src="<?php bloginfo('template_url'); ?>/img/artsida10.png" class="center-block img-responsive" alt="" /></a></h1>
 					<h2><?php _e('[:en]Raise your hand for ACCM[:][:fr]Levez votre main pour ACCM[:]'); ?></h2>
-					<div class="event">
+					<!-- <div class="event">
 						<p class="date"><?php _e('[:en]Sunday February 3<sup>rd</sup>[:][:fr]Dimanche le 3 février[:]'); ?> 2019</p>
 						<p class="time"><?php _e('[:en]6:30pm - 10:30pm[:][:fr]18h30 - 22h30[:]'); ?></p>
-					</div>
+					</div> -->
 				</div>
 				<div class="col-xs-2">
 					<p><span class="small"><?php _e('[:en]Presented&nbsp;by:[:][:fr]Présenté&nbsp;par:[:]'); ?></span><br />
-					<p><a target="_blank" href="http://www.td.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD logo" /></a></p>
+					<p><a target="_blank" href="https://www.td.com/"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/sponsor-td.gif" alt="TD logo" /></a></p>
 				</div>
 			</div>
 		</div>
@@ -110,11 +110,11 @@
 					</ul>
 				</section>
 			</div>
-			<div class="venue">
+<!-- 			<div class="venue">
 				<p><a target="_blank" href="<?php _e('[:en]https://macm.org/en/[:][:fr]https://macm.org/[:]'); ?>"><span lang="fr" class="sr-only">Musée d'art contemporain de Montréal</span><img src="<?php bloginfo('template_url'); ?>/img/logo-mac.png" alt=""></a></p>
 				<p>185 <?php _e('[:en]Sainte-Catherine Street West[:][:fr]rue Sainte-Catherine Ouest[:]'); ?></p>
 			</div>
-		</div>
+ -->		</div>
 		<div class="col-sm-12 menu">
 			<div class="row">
 				<div class="col-sm-8 cell">
@@ -134,7 +134,7 @@
 				        ?>
 					</div>
 				</div>
-				<div class="col-sm-3 red cell"><p class="bids"><a href="http://artsida.org/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/absentee/"><?php _e('[:en]Absentee bids[:][:fr]Mise à distance[:]'); ?></a></p></div>
+				<div class="col-sm-3 red cell"><p class="bids"><a href="https://artsida.org/<?php _e('[:en]en[:][:fr]fr[:]'); ?>/absentee/"><?php _e('[:en]Absentee bids[:][:fr]Mise à distance[:]'); ?></a></p></div>
 				<div class="col-sm-1 pink hidden-xs cell"></div>
 			</div>
 		</div>
